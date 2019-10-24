@@ -1,0 +1,34 @@
+// -----------------------------------------------------------------------------
+// Basic styles.
+// -----------------------------------------------------------------------------
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+a {
+    color: $link-color;
+    @include hover {
+        color: $link-color-hover;
+        transition: $transition-color;
+    }
+}
+p {
+    margin-bottom: 20px;
+}
+body {
+    color: $color-default;
+    font: {
+        size: $fontsize-defaul;
+        family: $font-default;
+    }
+    line-height: 1.6em;
+    -webkit-font-smoothing: antialiased;
+    min-width: 320px;
+}
+#layout {
+    background-color: #fafafa;
+}

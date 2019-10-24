@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// Main
+// -----------------------------------------------------------------------------
+main {
+    margin: 40px auto;
+    width: $max-width;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+#content {
+    min-height: 400px;
+    width: 910px;
+}
+.block {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -5px rgba(62, 57, 107, .07);
+  margin-bottom: 40px;
+  padding: 30px;
+  .inner {
+    margin-bottom: 30px;
+    .row {
+      margin-bottom: 20px;
+    }
+  }
+}

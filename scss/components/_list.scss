@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// Headline style
+// -----------------------------------------------------------------------------
+.item-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    ul {
+        list-style-type: circle;
+        padding-left: 20px;
+    }
+}
+.box-list {
+    display: flex;
+    margin-top: 10px;
+}
+.box-list li {
+    background-color: $bg-light-yellow;
+    font-size: $fontsize-m;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 287.5px;
+}
+.box-list li:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,66 @@
+// -----------------------------------------------------------------------------
+// Button style
+// -----------------------------------------------------------------------------
+button {
+    @include button;
+}
+.btn {
+    background-color: $blue;
+    border-radius: 4px;
+    color: $color-white;
+    font-size: $fontsize-s;
+    height: 30px;
+    padding: 0 20px;
+    text-align: center;
+    &.btn-red {
+        background-color: $red;
+    }
+    &.btn-orange {
+        background-color: $orange;
+    }
+    &.btn-yellow {
+        background-color: $yellow;
+    }
+    &.btn-green {
+        background-color: $green;
+    }
+    &.btn-pink {
+        background-color: $pink;
+    }
+    &.btn-purple {
+        background-color: $purple;
+    }
+    &.btn-black {
+        background-color: $black;
+    }
+    &.btn-light-red {
+        background-color: $light-red;
+    }
+    &.btn-light-orange {
+        background-color: $light-orange;
+    }
+    &.btn-light-yellow {
+        background-color: $light-yellow;
+    }
+    &.btn-light-green {
+        background-color: $light-green;
+    }
+    &.btn-light-pink {
+        background-color: $light-pink;
+    }
+    &.btn-light-purple {
+        background-color: $light-purple;
+    }
+    &.btn-light-black {
+        background-color: $light-black;
+    }
+    &:hover {
+        opacity: 0.7;
+    }
+}
+.btn-lg {
+    @extend .btn;
+    font-size: $fontsize-m;
+    height: 50px;
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// Grid style
+// -----------------------------------------------------------------------------
+.row {
+    @include flexbox();
+    @include flex-wrap(wrap);
+    width: 100%;
+    &.row-right {
+        justify-content: flex-end;
+    }
+    &.row-center {
+        justify-content: center;
+    }
+    &.row-spacing {
+        justify-content: space-between; 
+    }
+}
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: percentage($i / 12);
+    }
+}
+@for $i from 1 through 12 {
+    .row-spacing .col-#{$i} {
+    $w: percentage($i / 12);
+        width: calc( #{$w} - 10px);
+    }
+}
+@media only screen and (max-width: 768px) {
+    @for $i from 1 through 3 {
+        .col-md-#{$i} {
+            width: percentage($i / 3);
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    @for $i from 1 through 2 {
+        .col-xs-#{$i} {
+            width: percentage($i / 2);
+        }
+    }
+}

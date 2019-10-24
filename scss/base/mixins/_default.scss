@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// Default
+// -----------------------------------------------------------------------------
+@mixin box-wrap {
+    background-color: $box-color;
+    border-top: 3px solid $box-color;
+    border-radius: $box-radius;
+    margin-bottom: $box-margin-b;
+    padding: $box-padding;
+    padding-bottom: 20px;
+}
+@mixin button {
+    background: none;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: all $transition-duration ease-out;
+}
+@mixin center($w) {
+    margin: 0 auto;
+    max-width: $w;
+    padding: 0 $section-spacing;
+    text-align: center;
+    width: 100%;
+    @include breakpoint(lg) {
+        padding: 0 $section-spacing-sp;
+        width: auto;
+    }
+}

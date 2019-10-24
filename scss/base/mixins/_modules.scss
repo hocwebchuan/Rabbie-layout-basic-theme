@@ -1,0 +1,36 @@
+// -----------------------------------------------------------------------------
+// Module style
+// @author duonghc
+// -----------------------------------------------------------------------------
+@mixin bdr-position($pos,$radius) {
+    border-radius: 0;
+    @if $pos == 'top' {
+        border-#{$pos}-left-radius: $radius;
+        border-#{$pos}-right-radius: $radius;
+    }@else if $pos == 'bottom' {
+        border-#{$pos}-left-radius: $radius;
+        border-#{$pos}-right-radius: $radius;
+    }@else if $pos == 'right' {
+        border-bottom-#{$pos}-radius: $radius;
+        border-top-#{$pos}-radius: $radius;
+    }@else if $pos == 'left' {
+        border-bottom-#{$pos}-radius: $radius;
+        border-top-#{$pos}-radius: $radius;
+    }
+}
+@mixin position($pos,$y,$x) {
+    position: absolute;
+    @if $pos == 'tl' {
+        left: $x;
+        top: $y;
+    }@else if $pos == 'tr' {
+        right: $x;
+        top: $y;
+    }@else if $pos == 'bl' {
+        left: $x;
+        bottom: $y;
+    }@else if $pos == 'br' {
+        right: $x;
+        bottom: $y;
+    }
+}

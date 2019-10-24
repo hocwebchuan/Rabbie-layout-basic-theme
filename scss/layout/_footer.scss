@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// Footer style
+// -----------------------------------------------------------------------------
+$h: 80px;
+footer {
+    background-color: $bg-light-purple;
+    font-size: $fontsize-m;
+    height: $h;
+    line-height: $h;
+    text-align: center;
+}

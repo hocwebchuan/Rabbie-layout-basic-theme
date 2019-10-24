@@ -1,0 +1,45 @@
+// -----------------------------------------------------------------------------
+// Form style
+// -----------------------------------------------------------------------------
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    height: 40px;
+    border: none;
+    border: {
+        bottom: $bdr-solid-1;
+        radius: 4px;
+    }
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0);
+    font: {
+        family: $font-default;
+        size: 1em;
+    }
+    outline: none;
+    transition: $transition-all;
+    vertical-align: middle;
+    width: 100%;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    height: 15px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+    width: 15px;
+}
+select {
+    color: $color-third;
+}
+::placeholder {
+    color: $color-third;
+    opacity: 1;
+}
+textarea {
+    padding-top: 10px;
+}
+.form-style > div {
+    margin-bottom: 20px;
+}

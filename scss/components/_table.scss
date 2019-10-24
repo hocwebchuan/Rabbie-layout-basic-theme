@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// Table style
+// -----------------------------------------------------------------------------
+table {
+    width: 100%;
+    th,
+    td {
+        padding: 8px 10px;
+        vertical-align: top;
+        word-wrap: break-word;
+    }
+    td {
+        border-bottom: $bdr-table;
+    }
+    th {
+        background-color: $bg-light-blue;
+        color: #206ea2;
+    }
+    &.ver-style th {
+        background: none;
+        border-bottom: $bdr-table;
+    }
+}

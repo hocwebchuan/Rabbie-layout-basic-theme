@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// Breakpoint Mixins
+// -----------------------------------------------------------------------------
+@mixin breakpoint($media) {
+    @if(map-has-key($grid-breakpoints, $media)) {
+        @media only screen and (max-width: map-get($grid-breakpoints, $media)) {
+            @content;
+        }
+    }
+    @if(type-of($media)=='number') {
+        @media only screen and (max-width: $media + 'px') {
+            @content;
+        }
+    }
+}

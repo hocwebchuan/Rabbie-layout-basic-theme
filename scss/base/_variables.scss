@@ -1,0 +1,127 @@
+@charset "UTF-8";
+// -----------------------------------------------------------------------------
+// Variables.
+// -----------------------------------------------------------------------------
+
+// Regular font family
+$font-default: "Helvetica Neue",Helvetica,Arial,sans-serif !default;
+
+// Text color
+$color-default: #222317 !default;
+$color-secondary: lighten($color-default, 10%) !default;
+$color-third: lighten($color-default, 20%) !default;
+
+// All other color
+$color-success: #7be0eb !default;
+$color-warning: yellow !default;
+$color-error: #e5004f !default;
+$color-black: #000 !default;
+$color-white: #FFF !default;
+
+// Link color
+$link-color: #1a5eba !default;
+$link-color-hover: lighten($link-color, 20%) !default;
+
+// Shadow color
+$shadow-color: #dfdddf !default;
+
+//line
+$bg-color-blue: #16b1ec;
+
+//background element
+$red: #f44336;
+$blue: #2196f3;
+$green: #4caf50;
+$yellow: #ffeb3b;
+$orange: #ff9800;
+$pink: #e91e63;
+$purple: #9c27b0;
+$black: #333;
+
+$light-red: lighten($red, 10%);
+$light-blue: lighten($blue, 10%);
+$light-green: lighten($green, 10%);
+$light-yellow: lighten($yellow, 10%);
+$light-orange: lighten($orange, 10%);
+$light-pink: lighten($pink, 10%);
+$light-purple: lighten($purple, 10%);
+$light-black: lighten($black, 10%);
+
+$bg-light-blue: #edf6ff;
+$bg-light-green: #defdf4;
+$bg-light-pink: #ffeadf;
+$bg-light-purple: #f6e0f9;
+$bg-light-yellow: #f9f8de;
+
+//border
+$bdr-solid-1: 1px solid #d9dadb;
+$bdr-table: 1px solid #e1ecf9;
+$bdr-radius: 4px;
+
+//button
+$btn-bg: #16b1ec;
+$btn-bg-hover: #0599d2;
+
+$btn-bg2: #dde6fb;
+$btn-bg2-hover: #7ca3f9;
+$btn-color2: #1a5eba;
+$btn-color2-hover: #fff;
+
+$btn-bg3: #f78286;
+$btn-bg3-hover: #ff656b;
+
+//box section
+$box-color: #fff;
+$box-margin-b: 30px;
+$box-padding: 30px;
+$box-radius: 6px;
+
+// Container's maximum width
+$max-width: 1180px !default;
+$width-calc20: calc(100% - 20px);
+
+// Section spacing
+$section-spacing: 30px;
+$section-spacing-sp: 20px;
+
+// Font size
+$fontsize-defaul: 15px;
+$fontsize-l: 30px;
+$fontsize-b: 25px;
+$fontsize-m: 18px;
+$fontsize-s: 13px;
+
+// px
+$x5: 5px;
+$x10: 10px;
+$x20: 20px;
+$x30: 30px;
+$x40: 40px;
+
+//top-bottom right-left
+$x-10: 0 10px;
+$x-20: 0 20px;
+$x-center: 0 auto;
+
+// %
+$x100p: 100%;
+
+// Breakpoints
+$grid-breakpoints: (
+    xs: 320px,
+    sm: 480px,
+    sp: 640px,
+    md: 768px,
+    lg: 1024px,
+    xl: 1200px
+) !default;
+
+// Relative or absolute URL
+$base-url: '/img/' !default;
+
+//Transition
+$transition-duration: .3s !default;
+$transition-all: $transition-duration all ease-out !default;
+$transition-color: $transition-duration color !default;
+$transition-background: $transition-duration background !default;
+$transition-opacity: $transition-duration opacity !default;

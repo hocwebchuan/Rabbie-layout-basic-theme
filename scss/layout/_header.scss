@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// Header style
+// -----------------------------------------------------------------------------
+$h: 80px;
+header {
+    background-color: $bg-light-green;
+    font-size: $fontsize-m;
+    height: $h;
+    line-height: $h;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// Modules
+// -----------------------------------------------------------------------------
+.align-l {
+    text-align: left;
+}
+.align-c {
+    text-align: center;
+}
+.align-r {
+    text-align: right;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
