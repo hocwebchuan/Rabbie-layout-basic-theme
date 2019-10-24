@@ -2,6 +2,13 @@
 This template is convenient for your practicing any web language.
 
 ## Table of Contents
+- [Using contents](#using-content)
+  - [Grid system](#grid-system)
+  - [Button style](#button-style)
+  - [Box style](#box-style)
+  - [Form element style](#form-element-style)
+  - [Table style](#table-style)
+  - [List style](#list-style)
 - [Available Scripts](#available-scripts)
 - [Something Missing?](#something-missing)
 
@@ -14,8 +21,8 @@ npm install node-sass
 npm run scss
 ```
 
-## Content
-If you don't want SCSS files, you just keep these files:
+## Using contents
+If you don't want to use SCSS files, just keep HTML and CSS files:
 ```
   css/
     style.css
@@ -23,6 +30,24 @@ If you don't want SCSS files, you just keep these files:
 ```
 
 Simple and familiar with everyone!
+
+### Grid system
+Similar to Bootstraps, but we use simple ways, which is suitable for small templates.
+#### Default
+```html
+  <div class="row">
+      <div class="col-6">...</div>
+      <div class="col-6">...</div>
+  </div>
+```
+
+#### With margin
+```html
+  <div class="row row-spacing">
+      <div class="col-6">...</div>
+      <div class="col-6">...</div>
+  </div>
+```
 
 ### Button style
 ```html
@@ -89,5 +114,5 @@ Simple and familiar with everyone!
 
 ## Something missing?
 
-If you have any problems, [let me know](https://github.com/hocwebchuan/SCSS-template/issues).<br>
+If you have any problems, [let me know](https://github.com/hocwebchuan/Layout-theme-basic/issues).<br>
 Thanks for using it!
