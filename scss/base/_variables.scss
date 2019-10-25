@@ -29,6 +29,7 @@ $shadow-color: #dfdddf !default;
 $bg-color-blue: #16b1ec;
 
 //background element
+$white: #fff;
 $red: #f44336;
 $blue: #2196f3;
 $green: #4caf50;
@@ -36,8 +37,9 @@ $yellow: #ffeb3b;
 $orange: #ff9800;
 $pink: #e91e63;
 $purple: #9c27b0;
-$black: #333;
+$black: #000;
 
+$light-white: lighten($white, 10%);
 $light-red: lighten($red, 10%);
 $light-blue: lighten($blue, 10%);
 $light-green: lighten($green, 10%);
@@ -47,11 +49,15 @@ $light-pink: lighten($pink, 10%);
 $light-purple: lighten($purple, 10%);
 $light-black: lighten($black, 10%);
 
-$bg-light-blue: #edf6ff;
-$bg-light-green: #defdf4;
-$bg-light-pink: #ffeadf;
-$bg-light-purple: #f6e0f9;
-$bg-light-yellow: #f9f8de;
+$light-white-m: lighten($white, 40%);
+$light-red-m: lighten($red, 40%);
+$light-blue-m: lighten($blue, 40%);
+$light-green-m: lighten($green, 40%);
+$light-yellow-m: lighten($yellow, 32%);
+$light-orange-m: lighten($orange, 40%);
+$light-pink-m: lighten($pink, 40%);
+$light-purple-m: lighten($purple, 45%);
+$light-black-m: lighten($black, 40%);
 
 //border
 $bdr-gray: 1px solid #d9dadb;

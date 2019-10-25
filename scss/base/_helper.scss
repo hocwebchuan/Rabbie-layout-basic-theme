@@ -1,0 +1,53 @@
+// -----------------------------------------------------------------------------
+// Modules
+// -----------------------------------------------------------------------------
+.bg-blue { background-color: $blue; }
+.bg-red { background-color: $red; }
+.bg-orange { background-color: $orange; }
+.bg-yellow { background-color: $yellow; }
+.bg-green { background-color: $green; }
+.bg-pink { background-color: $pink; }
+.bg-purple { background-color: $purple; }
+.bg-black { background-color: $black; }
+.bg-light-blue { background-color: $light-blue; }
+.bg-light-red { background-color: $light-red; }
+.bg-light-orange { background-color: $light-orange; }
+.bg-light-yellow { background-color: $light-yellow; }
+.bg-light-green { background-color: $light-green; }
+.bg-light-pink { background-color: $light-pink; }
+.bg-light-purple { background-color: $light-purple; }
+.bg-light-black { background-color: $light-black; }
+.bg-light-blue-m { background-color: $light-blue-m; }
+.bg-light-red-m { background-color: $light-red-m; }
+.bg-light-orange-m { background-color: $light-orange-m; }
+.bg-light-yellow-m { background-color: $light-yellow-m; }
+.bg-light-green-m { background-color: $light-green-m; }
+.bg-light-pink-m { background-color: $light-pink-m; }
+.bg-light-purple-m { background-color: $light-purple-m; }
+.bg-light-black-m { background-color: $light-black-m; }
+.bdr-white { border-color: $white; }
+.bdr-blue { border-color: $blue; }
+.bdr-red { border-color: $red; }
+.bdr-green { border-color: $green; }
+.bdr-yellow { border-color: $yellow; }
+.bdr-orange { border-color: $orange; }
+.bdr-pink { border-color: $pink; }
+.bdr-purple { border-color: $purple; }
+.bdr-black { border-color: $black; }
+.bdr-white-l { border-color: $light-white; }
+.bdr-blue-l { border-color: $light-blue; }
+.bdr-red-l { border-color: $light-red; }
+.bdr-green-l { border-color: $light-green; }
+.bdr-yellow-l { border-color: $light-yellow; }
+.bdr-orange-l { border-color: $light-orange; }
+.bdr-pink-l { border-color: $light-pink; }
+.bdr-purple-l { border-color: $light-purple; }
+.bdr-black-l { border-color: $light-black; }
+.align-l { text-align: left; }
+.align-c { text-align: center; }
+.align-r { text-align: right; }
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}

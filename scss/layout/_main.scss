@@ -13,15 +13,15 @@ main {
     width: 910px;
 }
 .block {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 10px 15px -5px rgba(62, 57, 107, .07);
-  margin-bottom: 50px;
-  padding: 30px;
-  .inner {
-    margin-bottom: 40px;
-    .row {
-      margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -5px rgba(62, 57, 107, .07);
+    margin-bottom: 50px;
+    padding: 30px;
+    .inner {
+        margin-bottom: 40px;
+        .row {
+            margin-bottom: 20px;
+        }
     }
-  }
 }

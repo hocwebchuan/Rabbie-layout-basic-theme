@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
 // Headline style
 // -----------------------------------------------------------------------------
+// Item List
 .item-list {
     list-style-type: disc;
     padding-left: 20px;
@@ -9,12 +10,21 @@
         padding-left: 20px;
     }
 }
+
+// Link List
+.link-list {
+    li {
+        margin-bottom: 5px;
+    }
+}
+
+// Box List
 .box-list {
     display: flex;
     margin-top: 10px;
 }
 .box-list li {
-    background-color: $bg-light-yellow;
+    background-color: $light-yellow-m;
     font-size: $fontsize-m;
     height: 150px;
     line-height: 150px;

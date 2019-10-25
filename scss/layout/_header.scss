@@ -3,11 +3,24 @@
 // -----------------------------------------------------------------------------
 $h: 80px;
 header {
-    background-color: lighten($blue, 40%);
+    background-color: $light-blue-m;
     border-bottom: 1px solid lighten($blue, 35%);
     font-size: $fontsize-m;
     height: $h;
     line-height: $h;
+    overflow: hidden;
     padding: 0 20px;
-    text-align: center;
+    position: relative;
+    h1 {
+        color: #ae74fb;
+        font-size: $fontsize-l*1.5;
+        font-weight: 400;
+        position: absolute;
+        text-shadow: #999 0 1px 4px;
+        top: 20px;
+        span {
+            display: inline-block;
+            font-size: $fontsize-l*2.5;
+        }
+    }
 }

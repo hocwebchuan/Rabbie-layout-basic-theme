@@ -3,10 +3,11 @@
 // -----------------------------------------------------------------------------
 .box {
     @extend .block;
-    &.bdr-blue {
-        border-bottom: 3px solid $light-blue;
+    border-bottom: {
+        width: 3px;
+        style: solid;
     }
-    &.bdr-red {
-        border-bottom: 3px solid $light-red;
+    .inner {
+      margin-bottom: 20px;
     }
 }

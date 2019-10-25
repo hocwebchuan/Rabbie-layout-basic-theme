@@ -13,7 +13,7 @@ This Theme is convenient for your practicing any web language.
 - [Something Missing?](#something-missing)
 
 ## Available Scripts to use SCSS parts
-In the project directory, follow these steps to setup SASS auto compile the CSS file:
+In the project directory, follow these script to setup SASS to auto compile the CSS file:
 
 ```sh
 npm install
@@ -21,19 +21,29 @@ npm install node-sass
 npm run scss
 ```
 
-## Using contents
+## HTML and CSS file only
 If you don't want to use SCSS files, just keep HTML and CSS files:
+
 ```
   css/
     style.css
   index.html
 ```
 
+## CSS file only
+Or just get `css/style.css` then use this code in your HTML file:
+
+```html
+<link href="css/style.css" rel="stylesheet" media="all">
+```
+
 Simple and familiar with everyone!
 
 ### Grid system
 Similar to Bootstraps, but we use simple ways, which is suitable for small templates.
+
 #### Default
+
 ```html
   <div class="row">
       <div class="col-6">...</div>
@@ -42,6 +52,7 @@ Similar to Bootstraps, but we use simple ways, which is suitable for small templ
 ```
 
 #### With margin
+
 ```html
   <div class="row row-spacing">
       <div class="col-6">...</div>
@@ -50,6 +61,7 @@ Similar to Bootstraps, but we use simple ways, which is suitable for small templ
 ```
 
 ### Button style
+
 ```html
   <button class="btn btn-red">Button</button>
   <button class="btn btn-light-red">Button</button>
@@ -57,12 +69,14 @@ Similar to Bootstraps, but we use simple ways, which is suitable for small templ
 ```
 
 ### Box style
+
 ```html
   <div class="box">...</div>
   <div class="box bdr-blue">...</div>
 ```
 
 ### Form element style
+
 ```html
   <input type="text" id="type-text" placeholder="Your placeholder">
   <label for="type-checkbox01">Checkbox <input type="checkbox" id="type-checkbox01" checked="checked"></label>
@@ -70,6 +84,7 @@ Similar to Bootstraps, but we use simple ways, which is suitable for small templ
 ```
 
 ### Table style
+
 ```html
   <table class="hor-style">
     <tr>
@@ -96,6 +111,7 @@ Similar to Bootstraps, but we use simple ways, which is suitable for small templ
 ```
 
 ### List style
+
 ```html
   <ul class="item-list">
     <li>Lorem ipsum dolor.</li>
