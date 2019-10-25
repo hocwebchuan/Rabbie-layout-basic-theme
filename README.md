@@ -1,4 +1,4 @@
-# Rabbie Layout Basic Theme.
+# Rabbie Layout Basic Theme
 This Theme is convenient for your practicing any web language.
 
 ## Table of Contents
