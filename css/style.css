@@ -379,15 +379,21 @@ header {
   padding: 0 20px;
   position: relative; }
   header h1 {
-    color: #ae74fb;
     font-size: 45px;
     font-weight: 400;
     position: absolute;
     text-shadow: #999 0 1px 4px;
-    top: 20px; }
+    top: 20px;
+    transition: 0.3s all ease-out; }
+    header h1 a {
+      color: #ae74fb; }
+      header h1 a:hover {
+        color: #ae74fb; }
     header h1 span {
       display: inline-block;
       font-size: 75px; }
+    header h1:hover {
+      top: 0; }
 
 main {
   margin: 40px auto;
