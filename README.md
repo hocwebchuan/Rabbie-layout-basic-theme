@@ -31,7 +31,7 @@ If you don't want to use SCSS files, just keep HTML and CSS files:
 ```
 
 ## CSS file only
-Or just get `css/style.css` then use this code in your HTML file:
+Just get CSS file: `css/style.css` then use this code in your HTML file:
 
 ```html
 <link href="css/style.css" rel="stylesheet" media="all">
