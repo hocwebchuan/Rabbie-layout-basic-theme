@@ -3,9 +3,11 @@
 // -----------------------------------------------------------------------------
 $h: 80px;
 header {
-    background-color: $bg-light-green;
+    background-color: lighten($blue, 40%);
+    border-bottom: 1px solid lighten($blue, 35%);
     font-size: $fontsize-m;
     height: $h;
     line-height: $h;
+    padding: 0 20px;
     text-align: center;
 }

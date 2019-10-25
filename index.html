@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>hocwebchuan.com - Template</title>
+    <title>Rabbie Theme</title>
     <link href="css/style.css" rel="stylesheet" media="all">
 </head>
 <body>
     <div id="layout">
-        <header>HEADER</header>
+        <header>
+            HEADER
+        </header>
 
         <main>
             <section id="content">
@@ -137,36 +139,73 @@
 
                 <section class="block">
                     <h2>Form element style</h2>
-                    <div class="form-style">
-                        <div class="col-8">
-                            <input type="text" id="type-text" placeholder="Your placeholder">
+                    <section class="inner">
+                        <h3>Default Style</h3>
+                        <div class="form-style">
+                            <div class="col-8">
+                                <input type="text" id="type-text" placeholder="Your input placeholder">
+                            </div>
+                            <div class="col-8">
+                                <label for="type-checkbox01">Checkbox <input type="checkbox" id="type-checkbox01" checked="checked"></label>
+                                <label for="type-checkbox02">Checkbox <input type="checkbox" id="type-checkbox02"></label>
+                                <label for="type-checkbox03">Checkbox <input type="checkbox" id="type-checkbox03"></label>
+                                <label for="type-checkbox04">Checkbox <input type="checkbox" id="type-checkbox04"></label>
+                            </div>
+                            <div class="col-8">
+                                <label for="type-radio01">Input Radio <input type="radio" id="type-radio01" name="sample1" checked="checked"></label>
+                                <label for="type-radio02">Input Radio <input type="radio" id="type-radio02" name="sample1"></label>
+                                <label for="type-radio03">Input Radio <input type="radio" id="type-radio03" name="sample1"></label>
+                                <label for="type-radio04">Input Radio <input type="radio" id="type-radio04" name="sample1"></label>
+                            </div>
+                            <div class="col-3">
+                                <select id="type-select">
+                                    <option>Select</option>
+                                    <option>Consectetur</option>
+                                    <option>Adipiscing</option>
+                                    <option>Scelerisque</option>
+                                    <option>Volutpat</option>
+                                    <option>Pharetra</option>
+                                </select>
+                            </div>
+                            <div class="col-8">
+                                <textarea rows="3" id="type-textarea" placeholder="Your textarea placeholder"></textarea>
+                            </div>
                         </div>
-                        <div class="col-8">
-                            <label for="type-checkbox01">Checkbox <input type="checkbox" id="type-checkbox01" checked="checked"></label>
-                            <label for="type-checkbox02">Checkbox <input type="checkbox" id="type-checkbox02"></label>
-                            <label for="type-checkbox03">Checkbox <input type="checkbox" id="type-checkbox03"></label>
-                            <label for="type-checkbox04">Checkbox <input type="checkbox" id="type-checkbox04"></label>
+                    </section>
+
+                    <section class="inner">
+                        <h3>Border Style</h3>
+                        <div class="form-style bdr-style">
+                            <div class="col-8">
+                                <input type="text" id="type-text" placeholder="Your input placeholder">
+                            </div>
+                            <div class="col-8">
+                                <label for="type-checkbox01">Checkbox <input type="checkbox" id="type-checkbox01" checked="checked"></label>
+                                <label for="type-checkbox02">Checkbox <input type="checkbox" id="type-checkbox02"></label>
+                                <label for="type-checkbox03">Checkbox <input type="checkbox" id="type-checkbox03"></label>
+                                <label for="type-checkbox04">Checkbox <input type="checkbox" id="type-checkbox04"></label>
+                            </div>
+                            <div class="col-8">
+                                <label for="type-radio01">Input Radio <input type="radio" id="type-radio01" name="sample1" checked="checked"></label>
+                                <label for="type-radio02">Input Radio <input type="radio" id="type-radio02" name="sample1"></label>
+                                <label for="type-radio03">Input Radio <input type="radio" id="type-radio03" name="sample1"></label>
+                                <label for="type-radio04">Input Radio <input type="radio" id="type-radio04" name="sample1"></label>
+                            </div>
+                            <div class="col-3">
+                                <select id="type-select">
+                                    <option>Select</option>
+                                    <option>Consectetur</option>
+                                    <option>Adipiscing</option>
+                                    <option>Scelerisque</option>
+                                    <option>Volutpat</option>
+                                    <option>Pharetra</option>
+                                </select>
+                            </div>
+                            <div class="col-8">
+                                <textarea rows="3" id="type-textarea" placeholder="Your textarea placeholder"></textarea>
+                            </div>
                         </div>
-                        <div class="col-8">
-                            <label for="type-radio01">Input Radio <input type="radio" id="type-radio01" name="sample1" checked="checked"></label>
-                            <label for="type-radio02">Input Radio <input type="radio" id="type-radio02" name="sample1"></label>
-                            <label for="type-radio03">Input Radio <input type="radio" id="type-radio03" name="sample1"></label>
-                            <label for="type-radio04">Input Radio <input type="radio" id="type-radio04" name="sample1"></label>
-                        </div>
-                        <div class="col-3">
-                            <select id="type-select">
-                                <option>Select</option>
-                                <option>Consectetur</option>
-                                <option>Adipiscing</option>
-                                <option>Scelerisque</option>
-                                <option>Volutpat</option>
-                                <option>Pharetra</option>
-                            </select>
-                        </div>
-                        <div class="col-8">
-                            <textarea rows="3" id="type-textarea" placeholder="Your placeholder"></textarea>
-                        </div>
-                    </div>
+                    </section>
                 </section>
                 <!-- / .block -->
 
@@ -256,8 +295,8 @@
         </main>
         <!-- / main -->
 
-        <footer>FOOTER</footer>
-        </div>
-        <!-- / id layout -->
-    </body>
-    </html>
+        <footer>&copy;2019 <a href="https://hocwebchuan.com">Hoc Web Chuan</a> All Rights Reserved.</footer>
+    </div>
+    <!-- / id layout -->
+</body>
+</html>
