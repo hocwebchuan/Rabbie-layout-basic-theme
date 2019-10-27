@@ -11,7 +11,8 @@
     &.row-center {
         justify-content: center;
     }
-    &.row-spacing {
+    &.row-spacing,
+    &.row-spacing-2 {
         justify-content: space-between; 
     }
 }
@@ -19,11 +20,13 @@
     .col-#{$i} {
         width: percentage($i / 12);
     }
-}
-@for $i from 1 through 12 {
     .row-spacing .col-#{$i} {
-    $w: percentage($i / 12);
+        $w: percentage($i / 12);
         width: calc( #{$w} - 10px);
+    }
+    .row-spacing-2 .col-#{$i} {
+        $w: percentage($i / 12);
+        width: calc( #{$w} - 20px);
     }
 }
 @media only screen and (max-width: 768px) {

@@ -28,11 +28,18 @@
     font-size: $fontsize-m;
     height: 150px;
     line-height: 150px;
-    text-align: center;
-    margin-right: 10px;
+        text-align: center;
+        margin-right: 10px;
     margin-bottom: 10px;
     width: 287.5px;
 }
 .box-list li:last-child {
     margin-right: 0;
+}
+
+.block-list {
+    @extend .row;
+    li {
+        margin-bottom: 30px;
+    }
 }
