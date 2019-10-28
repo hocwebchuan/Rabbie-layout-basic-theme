@@ -3,6 +3,7 @@
 // -----------------------------------------------------------------------------
 h2 {
     font-size: $fontsize-l;
+    line-height: 1.2;
     margin-bottom: 50px;
     position: relative;
     text-transform: uppercase;
@@ -17,9 +18,11 @@ h2 {
 }
 h3 {
     font-size: $fontsize-b;
+    line-height: 1.4;
     margin-bottom: 15px;
 }
 h4 {
     font-size: $fontsize-m;
+    line-height: 1.5;
     margin-bottom: 10px;
 }

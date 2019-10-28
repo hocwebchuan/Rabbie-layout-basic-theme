@@ -1,6 +1,74 @@
 // -----------------------------------------------------------------------------
 // Aside style
 // -----------------------------------------------------------------------------
-aside {
-    width: 250px;
+#sidebar {
+    max-width: 250px;
+    width: 25%;
+    .menu {
+        height: 65px;
+        display: none;
+        padding: 5px;
+        @include position('tr', 0, 0);
+        width: 53px;
+        span {
+            background-color: #666;
+            content: "";
+            display: block;
+            height: 2px;
+            @include position('tl', 35px, 5px);
+            transition: $transition-all;
+            width: 40px;
+        }
+        span:before {
+            @extend span;
+            @include position('tl', 10px, 0);
+        }
+        &:hover {
+            span {
+                @include position('tl', 44px, 6px);
+                transform: rotate3d(0, 0, 1, 42deg);
+            }
+            span:before {
+                @include position('tl', 1px, 0);
+                transform: rotate3d(0, 0, 1, -85deg);
+            }
+        }
+        @include breakpoint(1024) {
+            display: block;
+        };
+    }
+    @include breakpoint(1024) {
+        @include position('tr', 5px, 20px);
+        right: 20px;
+        position: absolute;
+        top: 5px;
+        z-index: 100;
+        transition: $transition-all;
+        #aside-content {
+            display: none;
+            transition: $transition-all;
+        }
+        &:hover {
+            #aside-content {
+                display: block;
+                @include position('tl', 60px, 0);
+            }
+        }
+    };
+    @include breakpoint(768) {
+        max-width: 100%;
+        width: 50%;
+        #aside-content {
+            width: 100%;
+        }
+    }
+    @include breakpoint(480) {
+        width: 100%;
+        #aside-content {
+            left: auto!important;
+            position: absolute;
+            right: 0;
+            width: 90%;
+        }
+    }
 }

@@ -25,10 +25,10 @@ $link-color-hover: lighten($link-color, 20%) !default;
 // Shadow color
 $shadow-color: #dfdddf !default;
 
-//line
+// Line
 $bg-color-blue: #16b1ec;
 
-//background element
+// Background element
 $white: #fff;
 $red: #f44336;
 $blue: #2196f3;
@@ -39,6 +39,7 @@ $pink: #e91e63;
 $purple: #9c27b0;
 $black: #000;
 
+// Light
 $light-white: lighten($white, 10%);
 $light-red: lighten($red, 10%);
 $light-blue: lighten($blue, 10%);
@@ -49,23 +50,35 @@ $light-pink: lighten($pink, 10%);
 $light-purple: lighten($purple, 10%);
 $light-black: lighten($black, 10%);
 
-$light-white-m: lighten($white, 40%);
-$light-red-m: lighten($red, 40%);
-$light-blue-m: lighten($blue, 40%);
-$light-green-m: lighten($green, 40%);
-$light-yellow-m: lighten($yellow, 32%);
-$light-orange-m: lighten($orange, 40%);
-$light-pink-m: lighten($pink, 40%);
-$light-purple-m: lighten($purple, 45%);
-$light-black-m: lighten($black, 40%);
+// More light
+$light-white-ml: lighten($white, 25%);
+$light-red-ml: lighten($red, 25%);
+$light-blue-ml: lighten($blue, 25%);
+$light-green-ml: lighten($green, 25%);
+$light-yellow-ml: lighten($yellow, 25%);
+$light-orange-ml: lighten($orange, 25%);
+$light-pink-ml: lighten($pink, 25%);
+$light-purple-ml: lighten($purple, 25%);
+$light-black-ml: lighten($black, 25%);
 
-//border
+// Max more light
+$light-white-xl: lighten($white, 40%);
+$light-red-xl: lighten($red, 40%);
+$light-blue-xl: lighten($blue, 40%);
+$light-green-xl: lighten($green, 40%);
+$light-yellow-xl: lighten($yellow, 32%);
+$light-orange-xl: lighten($orange, 40%);
+$light-pink-xl: lighten($pink, 40%);
+$light-purple-xl: lighten($purple, 45%);
+$light-black-xl: lighten($black, 40%);
+
+// Border
 $bdr-gray: 1px solid #d9dadb;
 $bdr-elm-form: 1px solid #e1ecf9;
 $bdr-table: 1px solid #e1ecf9;
 $bdr-radius: 4px;
 
-//button
+// Button
 $btn-bg: #16b1ec;
 $btn-bg-hover: #0599d2;
 
@@ -77,7 +90,7 @@ $btn-color2-hover: #fff;
 $btn-bg3: #f78286;
 $btn-bg3-hover: #ff656b;
 
-//box section
+// Box section
 $box-color: #fff;
 $box-margin-b: 30px;
 $box-padding: 30px;
@@ -85,6 +98,7 @@ $box-radius: 6px;
 
 // Container's maximum width
 $max-width: 1180px !default;
+$default-padding: 20px;
 $width-calc20: calc(100% - 20px);
 
 // Section spacing
@@ -98,7 +112,7 @@ $fontsize-b: 25px;
 $fontsize-m: 18px;
 $fontsize-s: 13px;
 
-// px
+// Pixel
 $x5: 5px;
 $x10: 10px;
 $x20: 20px;
@@ -110,7 +124,7 @@ $x-10: 0 10px;
 $x-20: 0 20px;
 $x-center: 0 auto;
 
-// %
+// Percent
 $x100p: 100%;
 
 // Breakpoints
@@ -126,7 +140,7 @@ $grid-breakpoints: (
 // Relative or absolute URL
 $base-url: '/img/' !default;
 
-//Transition
+// Transition
 $transition-duration: .3s !default;
 $transition-all: $transition-duration all ease-out !default;
 $transition-color: $transition-duration color !default;

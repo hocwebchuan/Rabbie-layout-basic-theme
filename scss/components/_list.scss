@@ -24,22 +24,58 @@
     margin-top: 10px;
 }
 .box-list li {
-    background-color: $light-yellow-m;
+    background-color: $light-yellow-xl;
     font-size: $fontsize-m;
     height: 150px;
     line-height: 150px;
-        text-align: center;
-        margin-right: 10px;
-    margin-bottom: 10px;
+    text-align: center;
+    margin: {
+        right: 10px;
+        bottom: 10px;
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
     width: 287.5px;
 }
 .box-list li:last-child {
     margin-right: 0;
 }
 
+// Block List
 .block-list {
     @extend .row;
     li {
         margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
+
+// Pagination
+.pagination {
+    width: 100%;
+    ul {
+        li {
+            display: inline-block;
+            margin-left: 3px;
+            & > a,
+            & > span {
+                cursor: pointer;
+                padding: 7px 12px;
+            }
+            & > a:hover,
+            &.active > a,
+            &.active > a:hover,
+            &.active > span,
+            &.active > span:hover {
+                z-index: 3;
+                color: $white;
+                background-color: $light-blue;
+                border-color: $light-blue;
+            }
+        }
+    }
+}
+

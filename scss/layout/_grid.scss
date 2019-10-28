@@ -13,33 +13,61 @@
     }
     &.row-spacing,
     &.row-spacing-2 {
-        justify-content: space-between; 
+        justify-content: space-between;
     }
 }
 @for $i from 1 through 12 {
     .col-#{$i} {
-        width: percentage($i / 12);
+        width: percentage(1 / $i);
     }
     .row-spacing .col-#{$i} {
-        $w: percentage($i / 12);
+        $w: percentage(1 / $i);
         width: calc( #{$w} - 10px);
     }
     .row-spacing-2 .col-#{$i} {
-        $w: percentage($i / 12);
+        $w: percentage(1 / $i);
         width: calc( #{$w} - 20px);
     }
 }
 @media only screen and (max-width: 768px) {
     @for $i from 1 through 3 {
         .col-md-#{$i} {
-            width: percentage($i / 3);
+            width: percentage(1 / $i);
+        }
+        .row-spacing .col-md-#{$i} {
+            $w: percentage(1 / $i);
+            width: calc( #{$w} - 10px);
+        }
+        .row-spacing-2 .col-md-#{$i} {
+            $w: percentage(1 / $i);
+            width: calc( #{$w} - 20px);
         }
     }
 }
 @media only screen and (max-width: 480px) {
     @for $i from 1 through 2 {
         .col-xs-#{$i} {
-            width: percentage($i / 2);
+            width: percentage(1 / $i);
         }
+        .row-spacing .col-xs-#{$i} {
+            $w: percentage(1 / $i);
+            width: calc( #{$w} - 10px);
+        }
+        .row-spacing-2 .col-xs-#{$i} {
+            $w: percentage(1 / $i);
+            width: calc( #{$w} - 20px);
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .col-lg {
+        width: percentage(1);
+    }
+    .row-spacing .col-lg {
+        width: percentage(1);
+    }
+    .row-spacing-2 .col-lg {
+        width: percentage(1);
     }
 }
