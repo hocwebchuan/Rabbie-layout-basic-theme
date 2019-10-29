@@ -2,21 +2,22 @@
 This Theme is convenient for your practicing any web language.
 
 ## Table of Contents
+- [Available Scripts](#available-scripts)
 - [Using contents](#using-content)
   - [Grid system](#grid-system)
+  - [Color system](#color-system)
   - [Fontawsome](#fontawsome)
+  - [Button style](#button-style)
   - [Box style](#box-style)
   - [Paragraph style](#paragraph-style)
   - [Item list style](#item-list-style)
   - [Block list style](#block-list-style)
   - [Pagination style](#pagination-style)
-  - [Button style](#button-style)
   - [Form element style](#form-element-style)
   - [Table style](#table-style)
-- [Available Scripts](#available-scripts)
 - [Something Missing?](#something-missing)
 
-## Available Scripts to use SCSS parts
+## SCSS Available
 In the project directory, follow these script to setup SASS to auto compile the CSS file:
 
 ```sh
@@ -35,6 +36,9 @@ If you don't want to use SCSS files, just keep HTML and CSS files:
 ```
 
 Simple and familiar with everyone!
+
+## Using contents
+This content, you can take a look source code at [Rabbie Theme](https://rabbie-theme.hocwebchuan.com)
 
 ### Grid system
 #### Syntax
