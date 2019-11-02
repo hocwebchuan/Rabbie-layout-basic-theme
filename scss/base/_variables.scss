@@ -75,7 +75,6 @@ $light-black-xl: lighten($black, 40%);
 // Border
 $bdr-gray: 1px solid #d9dadb;
 $bdr-elm-form: 1px solid #e1ecf9;
-$bdr-table: 1px solid #e1ecf9;
 $bdr-radius: 4px;
 
 // Button
@@ -111,6 +110,7 @@ $fontsize-l: 30px;
 $fontsize-b: 25px;
 $fontsize-m: 18px;
 $fontsize-s: 13px;
+$fontsize-ss: 11px;
 
 // Pixel
 $x5: 5px;
@@ -118,6 +118,9 @@ $x10: 10px;
 $x20: 20px;
 $x30: 30px;
 $x40: 40px;
+$x50: 50px;
+$x70: 70px;
+$x100: 100px;
 
 //top-bottom right-left
 $x-10: 0 10px;

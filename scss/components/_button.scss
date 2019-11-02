@@ -12,6 +12,7 @@ button {
     color: $color-white;
     font-size: $fontsize-s;
     height: 30px;
+    line-height: 30px;
     padding: 0 20px;
     text-align: center;
     &:hover {
@@ -26,9 +27,34 @@ button {
     width: 100%;
 }
 a.btn {
-    display: block;
+    display: inline-block;
+    vertical-align: top;
     transition: $transition-all;
     &:hover {
         color: #fff;
+    }
+}
+.btn-icon {
+    @extend .btn;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    line-height: normal;
+    height: $x30;
+    width: $x30;
+    &.x20 {
+        font-size: $fontsize-ss;
+        height: $x20;
+        width: $x20;
+    }
+    &.x40 {
+        font-size: $fontsize-m;
+        height: $x40;
+        width: $x40;
+    }
+    &.x50 {
+        font-size: $fontsize-b;
+        height: $x50;
+        width: $x50;
     }
 }

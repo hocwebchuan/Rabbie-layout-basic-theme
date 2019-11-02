@@ -3,6 +3,7 @@
 // -----------------------------------------------------------------------------
 $t-th-color: #206ea2;
 $t-td-color: $color-default;
+$t-border: 1px solid #e1ecf9;
 $t-padding-v: 8px;
 $t-padding-h: 10px;
 $t-align: top;
@@ -18,15 +19,20 @@ $t-width: 850px;
             word-wrap: break-word;
         }
         td {
-            border-bottom: $bdr-table;
+            border-bottom: $t-border;
         }
         th {
             background-color: $light-blue-xl;
             color: $t-th-color;
         }
+        tr:first-child {
+            td, th {
+                border-top: $t-border;
+            }
+        }
         &.ver-style th {
             background: none;
-            border-bottom: $bdr-table;
+            border-bottom: $t-border;
         }
         @include breakpoint(1024) {
             width: $t-width;
@@ -40,7 +46,7 @@ $t-width: 850px;
     @extend .table-style;
     table {
         th, td {
-            border: $bdr-table;
+            border: $t-border;
         }
         &.ver-style th {
             background-color: $light-blue-xl;

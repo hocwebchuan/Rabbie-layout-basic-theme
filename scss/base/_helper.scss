@@ -51,3 +51,18 @@
     content: "";
     display: table;
 }
+hr {
+    background-color: #ddd;
+    border: none;
+    clear: both;
+    display: block;
+    height: 1px;
+    margin-bottom: 30px;
+    box-sizing: content-box;
+    &.opacity-divide {
+        background-color: inherit;
+        background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.1), transparent);
+        background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.1), transparent);
+        background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+    }
+}
