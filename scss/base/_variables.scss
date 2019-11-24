@@ -38,6 +38,7 @@ $orange: #ff9800;
 $pink: #e91e63;
 $purple: #9c27b0;
 $black: #000;
+$gray: #666;
 
 // Light
 $light-white: lighten($white, 10%);
@@ -49,6 +50,7 @@ $light-orange: lighten($orange, 10%);
 $light-pink: lighten($pink, 10%);
 $light-purple: lighten($purple, 10%);
 $light-black: lighten($black, 10%);
+$light-gray: lighten($gray, 10%);
 
 // More light
 $light-white-ml: lighten($white, 25%);
@@ -60,6 +62,7 @@ $light-orange-ml: lighten($orange, 25%);
 $light-pink-ml: lighten($pink, 25%);
 $light-purple-ml: lighten($purple, 25%);
 $light-black-ml: lighten($black, 25%);
+$light-gray-ml: lighten($gray, 25%);
 
 // Max more light
 $light-white-xl: lighten($white, 40%);
@@ -71,6 +74,7 @@ $light-orange-xl: lighten($orange, 40%);
 $light-pink-xl: lighten($pink, 40%);
 $light-purple-xl: lighten($purple, 45%);
 $light-black-xl: lighten($black, 40%);
+$light-gray-xl: lighten($gray, 40%);
 
 // Border
 $bdr-gray: 1px solid #d9dadb;

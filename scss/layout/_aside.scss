@@ -9,15 +9,16 @@
         display: none;
         padding: 5px;
         @include position('tr', 0, 0);
-        width: 53px;
+        text-align: center;
+        width: 60px;
         span {
             background-color: #666;
             content: "";
             display: block;
             height: 2px;
-            @include position('tl', 35px, 5px);
+            @include position('tl', 35px, 9px);
             transition: $transition-all;
-            width: 40px;
+            width: 41px;
         }
         span:before {
             @extend span;
@@ -44,6 +45,7 @@
         top: 5px;
         z-index: 100;
         transition: $transition-all;
+        width: 40%;
         #aside-content {
             display: none;
             transition: $transition-all;
@@ -51,7 +53,7 @@
         &:hover {
             #aside-content {
                 display: block;
-                @include position('tl', 60px, 0);
+                @include position('tl', 70px, 0);
             }
         }
     };
