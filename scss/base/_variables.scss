@@ -3,6 +3,9 @@
 // Variables.
 // -----------------------------------------------------------------------------
 
+// Header heigh
+$h: 80px;
+
 // Regular font family
 $font-default: "Helvetica Neue",Helvetica,Arial,sans-serif !default;
 
@@ -153,3 +156,5 @@ $transition-all: $transition-duration all ease-out !default;
 $transition-color: $transition-duration color !default;
 $transition-background: $transition-duration background !default;
 $transition-opacity: $transition-duration opacity !default;
+$transition-left: $transition-duration left !default;
+$transition-right: $transition-duration right !default;

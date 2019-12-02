@@ -11,6 +11,14 @@
     }
 }
 
+.check-list {
+    li {
+        i {
+            margin-right: 5px;
+        }
+    }
+}
+
 // Link List
 .link-list {
     li {
@@ -64,6 +72,7 @@
             & > span {
                 cursor: pointer;
                 padding: 7px 12px;
+                transition: $transition-all;
             }
             & > a:hover,
             &.active > a,

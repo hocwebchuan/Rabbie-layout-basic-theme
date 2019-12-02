@@ -24,7 +24,11 @@ button {
     font-size: $fontsize-m;
     height: auto;
     padding: 10px 20px;
+    max-width: 400px;
     width: 100%;
+    @include breakpoint(640) {
+        max-width: 100%;
+    };
 }
 a.btn {
     display: inline-block;

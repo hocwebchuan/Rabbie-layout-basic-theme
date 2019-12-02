@@ -1,9 +1,8 @@
 // -----------------------------------------------------------------------------
 // Header style
 // -----------------------------------------------------------------------------
-$h: 80px;
-$color1: 70deg, lighten(#ff7ee3, 0%) 30%, rgba(0,0,0,0) 30%;
-$color2: 30deg, lighten(#fff810, 20%) 60%, lighten(#63e89e, 20%) 60%;
+$color1: 70deg, lighten(#8A74E8, 10%) 30%, rgba(0,0,0,0) 30%;
+$color2: 30deg, lighten(#FC8DFF, 20%) 50%, lighten(#E88074, 20%) 50%;
 header {
     background: -webkit-linear-gradient($color1), -webkit-linear-gradient($color2);
     background: -o-linear-gradient($color1), -o-linear-gradient($color2);
