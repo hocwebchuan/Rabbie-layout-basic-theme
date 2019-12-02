@@ -10,6 +10,7 @@ This Theme is convenient for your practicing any web language.
   - [Button style](#button-style)
   - [Box style](#box-style)
   - [Paragraph style](#paragraph-style)
+  - [Blog style](#blog-style)
   - [Item list style](#item-list-style)
   - [Block list style](#block-list-style)
   - [Pagination style](#pagination-style)
@@ -26,12 +27,18 @@ npm install node-sass
 npm run scss
 ```
 
-## HTML and CSS file only
-If you don't want to use SCSS files, just keep HTML and CSS files:
+## Use files only without SCSS
+If you don't want to use SCSS files, use these files:
 
 ```
   css/
     style.css
+  js/
+    function.js
+    custom.js
+  vendor/
+    Font-Awesome-master/
+    jQuery/
   index.html
 ```
 
@@ -114,6 +121,31 @@ We have included latest version 5.11.2.
 ```html
   <h3 class="align-c">Align Left</h3>
   <p class="align-c">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+```
+
+### Blog style
+```html
+  <div class="blog-list">
+    <div class="post">
+        <div class="clearfix">
+            <div class="post-intro"><a href="#"><img src="images/photo01.jpg" alt=""></a></div>
+            <div class="post-detail">
+                <h3 class="post-title"><a href="#">Image blog post</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus.</p>
+                <p class="post-read-more"><a href="#" target="_blank">Read more</a></p>
+            </div>
+        </div>
+        <ul class="post-meta">
+            <li><i class="fa fa-calendar"></i> 16 June 2017</li>
+            <li><a href="#"><i class="fa fa-user"></i> Admin</a></li>
+            <li><a href="#"><i class="fa fa-comments"></i> 805</a></li>
+        </ul>
+    </div>
+
+    <div class="post">
+        ...
+    </div>
+</div>
 ```
 
 ### Item list style
