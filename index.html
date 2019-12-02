@@ -6,40 +6,55 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0">
     <link href="vendor/Font-Awesome-master/css/all.min.css" rel="stylesheet" media="all">
     <link href="css/style.css" rel="stylesheet" media="all">
+    <link href="css/custom.css" rel="stylesheet" media="all">
 </head>
 <body>
     <div id="layout">
         <header>
             <h1><a href="https://rabbie-theme.hocwebchuan.com/"><span>R</span>abbie Theme</a></h1>
+            <nav id="global-nav">
+                <div class="menu">
+                    MENU
+                    <span class="bdr-t"></span>
+                </div>
+                <ul>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </header>
 
         <main>
             <section id="content">
                 <section id="box">
                     <h2>Box style</h2>
-                    <div class="box bdr-white-l">
+                    <div class="box bdr-light-white">
                         Donec eget enim et lacus ultricies mollis. Aenean egestas sapien nulla, in sagittis odio scelerisque at. Donec sit amet placerat purus, ac rutrum purus. Vivamus aliquet risus ut lectus dapibus, eu gravida risus aliquet. Ut et dolor lobortis leo viverra dignissim eget mollis nunc. Nunc efficitur tellus eu ipsum elementum auctor.
                     </div>
 
-                    <div class="box bdr-blue">
+                    <div class="box bdr-light-blue">
                         Donec eget enim et lacus ultricies mollis. Aenean egestas sapien nulla, in sagittis odio scelerisque at. Donec sit amet placerat purus, ac rutrum purus. Vivamus aliquet risus ut lectus dapibus, eu gravida risus aliquet. Ut et dolor lobortis leo viverra dignissim eget mollis nunc. Nunc efficitur tellus eu ipsum elementum auctor.
                     </div>
 
                     <div class="row row-spacing">
                         <div class="col-2 col-lg">
-                            <div class="box bdr-white-l">Donec eget enim et lacus ultricies mollis. Aenean egestas sapien nulla, in sagittis odio scelerisque at. Donec sit amet placerat purus, ac rutrum purus.</div>
+                            <div class="box bdr-light-white">Donec eget enim et lacus ultricies mollis. Aenean egestas sapien nulla, in sagittis odio scelerisque at. Donec sit amet placerat purus, ac rutrum purus.</div>
                         </div>
                         <div class="col-2 col-lg">
-                            <div class="box bdr-white-l">Eu gravida risus aliquet. Ut et dolor lobortis leo viverra dignissim eget mollis nunc. Nunc efficitur tellus eu ipsum elementum auctor.</div>
+                            <div class="box bdr-light-white">Eu gravida risus aliquet. Ut et dolor lobortis leo viverra dignissim eget mollis nunc. Nunc efficitur tellus eu ipsum elementum auctor.</div>
                         </div>
                     </div>
 
                     <div class="row row-spacing">
                         <div class="col-2 col-lg">
-                            <div class="box bdr-blue">Donec eget enim et lacus ultricies mollis. Aenean egestas sapien nulla, in sagittis odio scelerisque at. Donec sit amet placerat purus, ac rutrum purus.</div>
+                            <div class="box bdr-light-blue">Donec eget enim et lacus ultricies mollis. Aenean egestas sapien nulla, in sagittis odio scelerisque at. Donec sit amet placerat purus, ac rutrum purus.</div>
                         </div>
                         <div class="col-2 col-lg">
-                            <div class="box bdr-red">Eu gravida risus aliquet. Ut et dolor lobortis leo viverra dignissim eget mollis nunc. Nunc efficitur tellus eu ipsum elementum auctor.</div>
+                            <div class="box bdr-light-red">Eu gravida risus aliquet. Ut et dolor lobortis leo viverra dignissim eget mollis nunc. Nunc efficitur tellus eu ipsum elementum auctor.</div>
                         </div>
                     </div>
                 </section>
@@ -85,69 +100,43 @@ Vehicula lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit 
                 </section>
                 <!-- / #paragraph -->
 
-                <section class="block" id="blog-list">
-                    <h2>Blog list style</h2>
-                    <div class="blog-list">
-                        <div class="post">
-                            <div class="clearfix">
-                                <div class="post-intro"><a href="#"><img src="images/photo01.jpg" alt=""></a></div>
-                                <div class="post-detail">
-                                    <h3 class="post-title"><a href="#">Image blog post</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus.</p>
-                                    <p class="post-read-more"><a href="#" target="_blank">Read more ...</a></p>
-                                </div>
-                            </div>
-                            <ul class="post-meta">
-                                <li><i class="fa fa-calendar"></i> 16 June 2017</li>
-                                <li><a href="#"><i class="fa fa-user"></i> Admin</a></li>
-                                <li><i class="fa fa-tag"></i> <a href="#">News</a>, <a href="#">Activities</a></li>
-                                <li><a href="#"><i class="fa fa-comments"></i> 805</a></li>
-                                <li><a href="#"><i class="fa fa-share-alt"></i> 204</a></li>
+                <section class="block" id="item-list">
+                    <h2>Item list style</h2>
+                    <div class="row row-spacing-2">
+                        <div class="col-2 col-lg">
+                            <ul class="item-list mb20">
+                                <li>Lorem ipsum dolor.</li>
+                                <li>Consectetur adipiscing.</li>
+                                <li>
+                                    <div>Curabitur consequat bibendum</div>
+                                    <ul>
+                                        <li>Scelerisque sapien.</li>
+                                        <li>Bibendum tellus.</li>
+                                        <li>Pharetra quis.</li>
+                                    </ul>
+                                </li>
+                                <li>Etiam aliquet orci.</li>
+                                <li>Quisque volutpat.</li>
+                                <li>Eget consectetur felis pharetra.</li>
                             </ul>
                         </div>
 
-                        <div class="post">
-                            <div class="clearfix">
-                                <div class="post-intro"><a href="#"><img src="images/photo02.jpg" alt=""></a></div>
-                                <div class="post-detail">
-                                    <h3 class="post-title"><a href="#">Image blog post</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus.</p>
-                                    <p class="post-read-more"><a href="#" target="_blank">Read more ...</a></p>
-                                </div>
-                            </div>
-                            <ul class="post-meta">
-                                <li><i class="fa fa-calendar"></i> 16 June 2017</li>
-                                <li><a href="#"><i class="fa fa-user"></i> Admin</a></li>
-                                <li><i class="fa fa-tag"></i> <a href="#">News</a>, <a href="#">Activities</a></li>
-                                <li><a href="#"><i class="fa fa-comments"></i> 805</a></li>
-                                <li><a href="#"><i class="fa fa-share-alt"></i> 204</a></li>
+                        <div class="col-2 col-lg">
+                            <ul class="check-list mb20">
+                                <li><i class="fas fa-check light-blue"></i> Lorem ipsum dolor.</li>
+                                <li><i class="fas fa-check light-blue"></i> Consectetur adipiscing.</li>
+                                <li><i class="fas fa-check light-blue"></i> Curabitur consequat bibendum</li>
+                                <li><i class="fas fa-check light-blue"></i> Scelerisque sapien.</li>
+                                <li><i class="fas fa-check light-blue"></i> Bibendum tellus.</li>
+                                <li><i class="fas fa-check light-blue"></i> Pharetra quis.</li>
+                                <li><i class="fas fa-check light-blue"></i> Etiam aliquet orci.</li>
+                                <li><i class="fas fa-check light-blue"></i> Quisque volutpat.</li>
+                                <li><i class="fas fa-check light-blue"></i> Eget consectetur felis pharetra.</li>
                             </ul>
                         </div>
                     </div>
                 </section>
-                <!-- / #blog-list -->
-
-                <section class="block" id="blog-content">
-                    <div class="blog-content">
-                        <div class="post">
-                            <div class="clearfix">
-                                <div class="post-intro"><a href="#"><img src="images/photo01.jpg" alt=""></a></div>
-                                <h2>Blog content style</h2>
-                                <ul class="post-meta">
-                                    <li><i class="fa fa-calendar"></i> 16 June 2017</li>
-                                    <li><a href="#"><i class="fa fa-user"></i> Admin</a></li>
-                                    <li><i class="fa fa-tag"></i> <a href="#">News</a>, <a href="#">Activities</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 805</a></li>
-                                    <li><a href="#"><i class="fa fa-share-alt"></i> 204</a></li>
-                                </ul>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet arcu et enim fringilla varius non quis arcu. Phasellus vehicula faucibus massa vel faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper vitae libero quis lacinia. Nunc id nibh mollis, eleifend velit sit amet, consequat purus. Nulla non rutrum massa. Proin mollis neque ut mauris rhoncus volutpat.</p>
-                                <p>Donec tempus nibh id urna tempus, et suscipit dolor vehicula. Cras convallis sapien a vehicula vestibulum. Mauris consectetur eget tortor eu posuere. Curabitur elit risus, faucibus sit amet elit eu, consectetur interdum est. Duis sodales risus cursus dui molestie, at sodales libero vehicula. Curabitur sit amet scelerisque purus. Sed mollis quam in est pellentesque, sed suscipit ex dapibus. Aliquam auctor ipsum vel turpis ullamcorper, sit amet luctus diam commodo.</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </section>
-                <!-- / #blog-content -->
+                <!-- / #item-list -->
 
                 <section class="block" id="block-list">
                     <h2>Block list style</h2>
@@ -298,6 +287,7 @@ Vehicula lacinia.</div>
                         <button class="btn bg-pink">Button</button>
                         <button class="btn bg-purple">Button</button>
                         <button class="btn bg-black">Button</button>
+                        <button class="btn bg-white">Button</button>
                     </section>
 
                     <section class="inner">
@@ -582,23 +572,20 @@ Vehicula lacinia.</div>
             <!-- / id content -->
 
             <aside id="sidebar">
-                <div class="menu">
-                    MENU
-                    <span class="bdr-t"></span>
-                </div>
                 <div id="aside-content">
-                    <section class="box bdr-white-l">
+                    <section class="box bdr-light-white">
                         <h2>Elements</h2>
                         <div class="inner">
                             <ul class="link-list">
-                                <li><a href="#box">Box Style</a></li>
-                                <li><a href="#paragraph">Paragraph Style</a></li>
-                                <li><a href="#item-list">Item list Style</a></li>
-                                <li><a href="#block-list">Block list Style</a></li>
-                                <li><a href="#pagenation">Pagenation Style</a></li>
-                                <li><a href="#button">Button Style</a></li>
-                                <li><a href="#form-element">Form element Style</a></li>
-                                <li><a href="#table">Table Style</a></li>
+                                <li><a href="index.html#box">Box Style</a></li>
+                                <li><a href="index.html#paragraph">Paragraph Style</a></li>
+                                <li><a href="blog-list.html">Blog list Style</a></li>
+                                <li><a href="blog-content.html">Blog content Style</a></li>
+                                <li><a href="index.html#item-list">Item list Style</a></li>
+                                <li><a href="index.html#pagination">Pagination Style</a></li>
+                                <li><a href="index.html#button">Button Style</a></li>
+                                <li><a href="index.html#form-element">Form element Style</a></li>
+                                <li><a href="index.html#table">Table Style</a></li>
                             </ul>
                         </div>
 
@@ -620,5 +607,8 @@ Vehicula lacinia.</div>
         <footer>&copy;2019 <a href="https://hocwebchuan.com">Hoc Web Chuan</a> All Rights Reserved.</footer>
     </div>
     <!-- / id layout -->
+    <script src="vendor/jQuery/jquery.min.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 </html>

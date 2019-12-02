@@ -4,7 +4,7 @@
 // Blog List
 .blog-list {
     .post {
-        margin-bottom: 30px;
+        margin-bottom: 35px;
         border-bottom: $bdr-gray;
         .post-intro {
             padding-right: 20px;
@@ -31,7 +31,7 @@
             margin-bottom: 0;
             a {
                 font-style: italic;
-                font-weight: 600;
+                font-weight: 400;
             }
         }
         &:last-child {
@@ -45,6 +45,92 @@
 .blog-content {
     .post-intro {
         margin-bottom: 20px;
+    }
+}
+
+.related-post {
+    h4 a,
+    div a {
+        color: $color-default;
+        opacity: 1;
+        transition: $transition-opacity;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+    .post-meta {
+        margin-bottom: 10px;
+        margin-top: -10px;
+        li {
+            margin-bottom: 0;
+            a {
+                
+            }
+        }
+    }
+}
+
+#comment {
+    margin-bottom: 30px;
+    .comment-box {
+        position: relative;
+        padding: 20px;
+        &:nth-child(2n) {
+            background-color: #f5f5f5;
+        }
+        h3 {
+            span {
+                font-size: 20px;
+                color: #07c;
+            }
+        }
+        .image {
+            float: left;
+            width: 80px;
+            margin-right: 20px;
+            img {
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 50%;
+                display: block;
+                height: 80px;
+                padding: 4px;
+                width: 80px;
+            }
+        }
+        .info {
+            padding-left: 100px;
+            h4 {
+                margin-bottom: 0;
+            }
+            .date {
+                color: #888;
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+            .reply {
+                position: absolute;
+                right: 20px;
+                top: 15px;
+                a {
+                    color: #aaa;
+                    &:hover {
+                        color: #666;
+                    }
+                }
+
+            }
+        }
+        .comment-1-1 {
+            border-top: 1px dashed #ddd;
+            margin-top: 20px;
+            position: relative;
+            padding-top: 20px;
+            padding-left: 100px;
+            .reply {
+                right: 0;
+            }
+        }
     }
 }
 

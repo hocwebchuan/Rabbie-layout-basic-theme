@@ -1,6 +1,30 @@
 // -----------------------------------------------------------------------------
 // Modules
 // -----------------------------------------------------------------------------
+.blue { color: $blue; }
+.red { color: $red; }
+.orange { color: $orange; }
+.yellow { color: $yellow; }
+.green { color: $green; }
+.pink { color: $pink; }
+.purple { color: $purple; }
+.black { color: $black; }
+.light-blue { color: $light-blue; }
+.light-red { color: $light-red; }
+.light-orange { color: $light-orange; }
+.light-yellow { color: $light-yellow; }
+.light-green { color: $light-green; }
+.light-pink { color: $light-pink; }
+.light-purple { color: $light-purple; }
+.light-black { color: $light-black; }
+.light-blue-xl { color: $light-blue-xl; }
+.light-red-xl { color: $light-red-xl; }
+.light-orange-xl { color: $light-orange-xl; }
+.light-yellow-xl { color: $light-yellow-xl; }
+.light-green-xl { color: $light-green-xl; }
+.light-pink-xl { color: $light-pink-xl; }
+.light-purple-xl { color: $light-purple-xl; }
+.light-black-xl { color: $light-black-xl; }
 .bg-blue { background-color: $blue; }
 .bg-red { background-color: $red; }
 .bg-orange { background-color: $orange; }
@@ -9,6 +33,12 @@
 .bg-pink { background-color: $pink; }
 .bg-purple { background-color: $purple; }
 .bg-black { background-color: $black; }
+.bg-white { 
+    background-color: $white; color: $color-default!important; border: $bdr-gray;
+    &:hover {
+        border-color: $color-default;
+    }
+}
 .bg-light-blue { background-color: $light-blue; }
 .bg-light-red { background-color: $light-red; }
 .bg-light-orange { background-color: $light-orange; }
@@ -34,15 +64,15 @@
 .bdr-pink { border-color: $pink; }
 .bdr-purple { border-color: $purple; }
 .bdr-black { border-color: $black; }
-.bdr-white-l { border-color: $light-white; }
-.bdr-blue-l { border-color: $light-blue; }
-.bdr-red-l { border-color: $light-red; }
-.bdr-green-l { border-color: $light-green; }
-.bdr-yellow-l { border-color: $light-yellow; }
-.bdr-orange-l { border-color: $light-orange; }
-.bdr-pink-l { border-color: $light-pink; }
-.bdr-purple-l { border-color: $light-purple; }
-.bdr-black-l { border-color: $light-black; }
+.bdr-light-white { border-color: $light-white; }
+.bdr-light-blue { border-color: $light-blue; }
+.bdr-light-red { border-color: $light-red; }
+.bdr-light-green { border-color: $light-green; }
+.bdr-light-yellow { border-color: $light-yellow; }
+.bdr-light-orange { border-color: $light-orange; }
+.bdr-light-pink { border-color: $light-pink; }
+.bdr-light-purple { border-color: $light-purple; }
+.bdr-light-black { border-color: $light-black; }
 .align-l { text-align: left; }
 .align-c { text-align: center; }
 .align-r { text-align: right; }
@@ -64,5 +94,17 @@ hr {
         background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.1), transparent);
         background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.1), transparent);
         background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+    }
+    &.space-m {
+        margin: $x30 0;
+    }
+    &.space-l {
+        margin: $x50 0;
+    }
+    &.space-xl {
+        margin: $x70 0;
+    }
+    &.space-xxl {
+        margin: $x100 0;
     }
 }

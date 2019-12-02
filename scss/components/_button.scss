@@ -19,20 +19,26 @@ button {
         opacity: 0.7;
     }
 }
-.btn-lg {
-    @extend .btn;
-    font-size: $fontsize-m;
-    height: auto;
-    padding: 10px 20px;
-    width: 100%;
-}
 a.btn {
     display: inline-block;
+    height: 32px;
     vertical-align: top;
     transition: $transition-all;
     &:hover {
         color: #fff;
     }
+}
+.btn-lg,
+a.btn-lg {
+    @extend .btn;
+    font-size: $fontsize-m;
+    height: auto;
+    padding: 10px 20px;
+    max-width: 1024px;
+    width: 100%;
+    @include breakpoint(640) {
+        max-width: 100%;
+    };
 }
 .btn-icon {
     @extend .btn;

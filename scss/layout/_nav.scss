@@ -1,3 +1,89 @@
 // -----------------------------------------------------------------------------
 // Navigation style
 // -----------------------------------------------------------------------------
+#global-nav {
+    @include position('tr',0,0);
+    line-height: 1.4;
+    .menu {
+        background-color: rgba(255,255,255,0.8);
+        cursor: pointer;
+        display: none;
+        font-size: 15px;
+        height: 80px;
+        padding: 15px 13px 11px;
+        @include position('tr', 0, 0);
+        text-align: center;
+        width: 80px;
+        span {
+            background-color: #666;
+            content: "";
+            display: block;
+            height: 2px;
+            @include position('tl', 42px, 19px);
+            transition: $transition-all;
+            width: 41px;
+        }
+        span:before {
+            @extend span;
+            @include position('tl', 10px, 0);
+        }
+        &.active {
+            span {
+                @include position('tl', 52px, 19px);
+                transform: rotate3d(0, 0, 1, 42deg);
+            }
+            span:before {
+                @include position('tl', 1px, 0);
+                transform: rotate3d(0, 0, 1, -85deg);
+            }
+        }
+    }
+    li {
+        display: inline-block;
+        margin-left: -5px;
+        a {
+            background-color: rgba(255,255,255,0.6);
+            color: $color-default;
+            display: inline-block;
+            height: $h;
+            line-height: $h;
+            padding: 0 30px;
+            transition: $transition-duration;
+            &:hover,
+            &.active {
+                background-color: rgba(255,255,255,0.8);
+            }
+        }
+    }
+    @include breakpoint(1024) {
+        height: 100%;
+        position: fixed;
+        width: 300px;
+        z-index: 100;
+        .menu {
+            display: block;
+            z-index: 10;
+        }
+        ul {
+            background-color: rgba(255,255,255,0.9);
+            height: 100%;
+            padding-top: 80px;
+            margin-bottom: 20px;
+            position: relative;
+            right: -300px;
+            top: 0;
+            transition: $transition-right; 
+            &.active {
+                right: 0;
+            }
+            li {
+                display: block;
+                a {
+                    background: none;
+                    height: 50px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}

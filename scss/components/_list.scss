@@ -11,10 +11,30 @@
     }
 }
 
+.check-list {
+    li {
+        i {
+            margin-right: 5px;
+        }
+    }
+}
+
 // Link List
 .link-list {
     li {
         margin-bottom: 5px;
+    }
+    &.bdr {
+        li {
+            border-bottom: $bdr-dash-gray;
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            &:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+        }
     }
 }
 
@@ -64,6 +84,7 @@
             & > span {
                 cursor: pointer;
                 padding: 7px 12px;
+                transition: $transition-all;
             }
             & > a:hover,
             &.active > a,
@@ -79,3 +100,10 @@
     }
 }
 
+// Tags list
+.tags-list {
+    li {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+}

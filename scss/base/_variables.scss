@@ -3,6 +3,9 @@
 // Variables.
 // -----------------------------------------------------------------------------
 
+// Header heigh
+$h: 80px;
+
 // Regular font family
 $font-default: "Helvetica Neue",Helvetica,Arial,sans-serif !default;
 
@@ -77,7 +80,10 @@ $light-black-xl: lighten($black, 40%);
 $light-gray-xl: lighten($gray, 40%);
 
 // Border
+$bdr-default: 1px solid $light-black-xl;
 $bdr-gray: 1px solid #d9dadb;
+$bdr-dot-gray: 1px dotted #d9dadb;
+$bdr-dash-gray: 1px dashed #d9dadb;
 $bdr-elm-form: 1px solid #e1ecf9;
 $bdr-radius: 4px;
 
@@ -153,3 +159,5 @@ $transition-all: $transition-duration all ease-out !default;
 $transition-color: $transition-duration color !default;
 $transition-background: $transition-duration background !default;
 $transition-opacity: $transition-duration opacity !default;
+$transition-left: $transition-duration left !default;
+$transition-right: $transition-duration right !default;
