@@ -227,11 +227,11 @@ We have included latest version 5.11.2.
 ## Pages
 Rabbie theme provide some necessary pages for normal website, check it out:
 
-[Top page](https://rabbie-theme.hocwebchuan.com/)
-[Blog list](https://rabbie-theme.hocwebchuan.com/blog-list.html)
-[Blog content](https://rabbie-theme.hocwebchuan.com/blog-content.html)
-[Contact](https://rabbie-theme.hocwebchuan.com/contact.html)
-[Updating...]
+- [Top page](https://rabbie-theme.hocwebchuan.com/)<br>
+- [Blog list](https://rabbie-theme.hocwebchuan.com/blog-list.html)<br>
+- [Blog content](https://rabbie-theme.hocwebchuan.com/blog-content.html)<br>
+- [Contact](https://rabbie-theme.hocwebchuan.com/contact.html)<br>
+- [Updating...]
 
 ## Something missing?
 If you have any problems, [let me know](https://github.com/hocwebchuan/Layout-theme-basic/issues).<br>
