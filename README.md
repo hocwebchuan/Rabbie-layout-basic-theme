@@ -1,5 +1,5 @@
 # Rabbie Layout Basic Theme
-This Theme convenient for your practicing any programming web.
+This Theme convenient for your practicing any websites.
 
 ## Table of Contents
 - [Available Scripts](#available-scripts)
