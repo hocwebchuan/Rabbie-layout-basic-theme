@@ -228,9 +228,9 @@ We have included latest version 5.11.2.
 Rabbie theme provide some necessary pages for normal website, check it out:
 
 - [Top page](https://rabbie-theme.hocwebchuan.com/)<br>
-- [Blog list](https://rabbie-theme.hocwebchuan.com/blog-list.html)<br>
-- [Blog content](https://rabbie-theme.hocwebchuan.com/blog-content.html)<br>
-- [Contact](https://rabbie-theme.hocwebchuan.com/contact.html)<br>
+- [Blog list](https://rabbie-theme.hocwebchuan.com/blog-list.php)<br>
+- [Blog content](https://rabbie-theme.hocwebchuan.com/blog-content.php)<br>
+- [Contact](https://rabbie-theme.hocwebchuan.com/contact.php)<br>
 - [Updating...]
 
 ## Something missing?
