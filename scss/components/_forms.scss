@@ -40,8 +40,18 @@ select {
 textarea {
     padding-top: 10px;
 }
-.form-style > div {
-    margin-bottom: 20px;
+.form-group {
+    & > div {
+        margin-bottom: 20px;
+    }
+    label {
+        display: inline-block;
+        margin-bottom: 5px;
+        em {
+            color: $light-red;
+            font-size: 18px;
+        }
+    }
 }
 .bdr-style {
     input[type="text"],

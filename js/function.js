@@ -1,3 +1,4 @@
+// Click open next element
 var clickFnc = function(selector){
     selector.click(function() {
         var $this = $(this);

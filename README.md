@@ -1,5 +1,5 @@
 # Rabbie Layout Basic Theme
-This Theme is convenient for your practicing any web language.
+This Theme convenient for your practicing any programming web.
 
 ## Table of Contents
 - [Available Scripts](#available-scripts)
@@ -10,16 +10,16 @@ This Theme is convenient for your practicing any web language.
   - [Button style](#button-style)
   - [Box style](#box-style)
   - [Paragraph style](#paragraph-style)
-  - [Blog style](#blog-style)
   - [Item list style](#item-list-style)
   - [Block list style](#block-list-style)
   - [Pagination style](#pagination-style)
   - [Form element style](#form-element-style)
   - [Table style](#table-style)
+- [Pages](#pages)
 - [Something Missing?](#something-missing)
 
 ## SCSS Available
-In the project directory, follow these script to setup SASS to auto compile the CSS file:
+In the project directory, follow these script to setup SASS to auto compile the CSS files:
 
 ```sh
 npm install
@@ -32,7 +32,12 @@ If you don't want to use SCSS files, use these files:
 
 ```
   css/
+    custom.css
     style.css
+    pages/
+      blog.css
+      home.css
+  images/
   js/
     function.js
     custom.js
@@ -40,6 +45,9 @@ If you don't want to use SCSS files, use these files:
     Font-Awesome-master/
     jQuery/
   index.html
+  blog-list.html
+  blog-content.html
+  contact.html
 ```
 
 Simple and familiar with everyone!
@@ -121,31 +129,6 @@ We have included latest version 5.11.2.
 ```html
   <h3 class="align-c">Align Left</h3>
   <p class="align-c">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-```
-
-### Blog style
-```html
-  <div class="blog-list">
-    <div class="post">
-        <div class="clearfix">
-            <div class="post-intro"><a href="#"><img src="images/photo01.jpg" alt=""></a></div>
-            <div class="post-detail">
-                <h3 class="post-title"><a href="#">Image blog post</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus.</p>
-                <p class="post-read-more"><a href="#" target="_blank">Read more</a></p>
-            </div>
-        </div>
-        <ul class="post-meta">
-            <li><i class="fa fa-calendar"></i> 16 June 2017</li>
-            <li><a href="#"><i class="fa fa-user"></i> Admin</a></li>
-            <li><a href="#"><i class="fa fa-comments"></i> 805</a></li>
-        </ul>
-    </div>
-
-    <div class="post">
-        ...
-    </div>
-</div>
 ```
 
 ### Item list style
@@ -240,6 +223,15 @@ We have included latest version 5.11.2.
     </tr>
   </table>
 ```
+
+## Pages
+Rabbie theme provide some necessary pages for normal website, check it out:
+
+[Top page](https://rabbie-theme.hocwebchuan.com/)
+[Blog list](https://rabbie-theme.hocwebchuan.com/blog-list.html)
+[Blog content](https://rabbie-theme.hocwebchuan.com/blog-content.html)
+[Contact](https://rabbie-theme.hocwebchuan.com/contact.html)
+[Updating...]
 
 ## Something missing?
 If you have any problems, [let me know](https://github.com/hocwebchuan/Layout-theme-basic/issues).<br>
