@@ -13,14 +13,21 @@
         .link-list {
             li {
                 border-top: $bdr-gray;
+                margin-bottom: 0;
                 &:last-child {
                     border-bottom: $bdr-gray;
                 }
                 a {
                     display: block;
                     font-size: 18px;
-                    padding: 10px 0;
+                    padding: 14px 0;
                     width: 100%;
+                }
+            }
+            &.bdr {
+                li {
+                    border-bottom: none;
+                    padding-bottom: 0;
                 }
             }
         }

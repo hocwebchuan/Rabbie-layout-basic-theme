@@ -13,6 +13,12 @@
       opacity: 1; }
       .blog-list .post .post-intro a:hover {
         opacity: 0.8; }
+    @media only screen and (max-width: 768px) {
+      .blog-list .post .post-intro {
+        float: none;
+        margin-bottom: 10px;
+        padding-right: 0;
+        width: 100%; } }
   .blog-list .post .post-detail {
     margin-bottom: 20px; }
     .blog-list .post .post-detail h3 {

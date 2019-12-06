@@ -9,13 +9,21 @@
         list-style-type: circle;
         padding-left: 20px;
     }
+    @include breakpoint(768) {
+        margin-bottom: 20px;
+    }
 }
 
 .check-list {
     li {
+        padding-left: 12px;
+        text-indent: -12px;
         i {
             margin-right: 5px;
         }
+    }
+    @include breakpoint(768) {
+        margin-bottom: 20px;
     }
 }
 
@@ -40,26 +48,35 @@
 
 // Box List
 .box-list {
-    display: flex;
     margin-top: 10px;
-}
-.box-list li {
-    background-color: $light-yellow-xl;
-    font-size: $fontsize-m;
-    height: 150px;
-    line-height: 150px;
-    text-align: center;
-    margin: {
-        right: 10px;
-        bottom: 10px;
+    width: 100%;
+    li {
+        background-color: $light-yellow-xl;
+        font-size: $fontsize-m;
+        float: left;
+        height: 150px;
+        line-height: 150px;
+        text-align: center;
+        margin: {
+            right: 10px;
+            bottom: 10px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+            margin-right: 0;
+        }
+        width: calc(25% - 10px);
+        @include breakpoint(768) {
+            width: calc(50% - 5px);
+            &:nth-child(2n) {
+                margin-bottom: 10px;
+                margin-right: 0;
+            }
+        }
     }
-    &:last-child {
-        margin-bottom: 0;
+    @include breakpoint(480) {
+        padding: 0 20px;
     }
-    width: 287.5px;
-}
-.box-list li:last-child {
-    margin-right: 0;
 }
 
 // Block List

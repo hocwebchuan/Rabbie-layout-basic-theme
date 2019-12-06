@@ -23,6 +23,12 @@
                     opacity: 0.8;
                 }
             }
+            @include breakpoint(768) {
+                float: none;
+                margin-bottom: 10px;
+                padding-right: 0;
+                width: 100%;
+            }
         }
         .post-detail {
             margin-bottom: 20px;
