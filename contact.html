@@ -1,140 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Contact | Rabbie Theme</title>
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0">
-    <link href="vendor/Font-Awesome-master/css/all.min.css" rel="stylesheet" media="all">
-    <link href="css/style.css" rel="stylesheet" media="all">
-    <link href="css/custom.css" rel="stylesheet" media="all">
-</head>
-<body>
+    <meta
+      name="viewport"
+      content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0" />
+    <link
+      href="vendor/Font-Awesome-master/css/all.min.css"
+      rel="stylesheet"
+      media="all" />
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <link href="css/custom.css" rel="stylesheet" media="all" />
+  </head>
+  <body>
     <div id="layout">
-        <header>
-            <h1><a href="https://rabbie-theme.hocwebchuan.com/"><span>R</span>abbie Theme</a></h1>
-            <nav id="global-nav">
-                <div class="menu">
-                    MENU
-                    <span class="bdr-t"></span>
+      <header>
+        <h1>
+          <a href="https://rabbie-theme.hocwebchuan.com/"
+            ><span>R</span>abbie Theme</a
+          >
+        </h1>
+        <nav id="global-nav">
+          <div class="menu">
+            MENU
+            <span class="bdr-t"></span>
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog-list.html">Blog</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="admin-01.html">Admin</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="content">
+          <section class="block">
+            <h2>CONTACT</h2>
+            <p>
+              Proin vulputate interdum mauris in tincidunt. Phasellus at dui
+              arcu. Maecenas cursus arcu quis arcu volutpat pulvinar. Vivamus
+              sodales vulputate nunc. Aliquam venenatis ultrices ultricies.
+            </p>
+            <form action="" method="POST">
+              <div class="form-group">
+                <div class="row row-spacing-2">
+                  <div class="col-2 col-lg">
+                    <label for="name">Full Name <em>*</em></label>
+                    <input type="text" name="name" maxlength="100" id="name" />
+                  </div>
+
+                  <div class="col-2 col-lg">
+                    <label for="email">Email Address <em>*</em></label>
+                    <input
+                      type="email"
+                      name="email"
+                      maxlength="100"
+                      id="email" />
+                  </div>
                 </div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="blog-list.html">Blog</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
+
+                <div class="row">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    name="subject"
+                    maxlength="100"
+                    id="subject" />
+                </div>
+
+                <div class="row">
+                  <label for="message">Message <em>*</em></label>
+                  <textarea
+                    rows="10"
+                    name="message"
+                    maxlength="5000"
+                    id="message"></textarea>
+                </div>
+
+                <div class="row">
+                  <button class="btn icon bg-blue" type="submit">
+                    <i class="fa fa-paper-plane"></i> Send message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+
+          <section class="block">
+            <h2>CONTACT</h2>
+            <p>
+              Proin vulputate interdum mauris in tincidunt. Phasellus at dui
+              arcu. Maecenas cursus arcu quis arcu volutpat pulvinar. Vivamus
+              sodales vulputate nunc. Aliquam venenatis ultrices ultricies.
+            </p>
+            <form action="" method="POST">
+              <div class="form-group bdr-style">
+                <div class="row row-spacing-2">
+                  <div class="col-2 col-lg">
+                    <label for="name">Full Name <em>*</em></label>
+                    <input type="text" name="name" maxlength="100" id="name" />
+                  </div>
+
+                  <div class="col-2 col-lg">
+                    <label for="email">Email Address <em>*</em></label>
+                    <input
+                      type="email"
+                      name="email"
+                      maxlength="100"
+                      id="email" />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    name="subject"
+                    maxlength="100"
+                    id="subject" />
+                </div>
+
+                <div class="row">
+                  <label for="message">Message <em>*</em></label>
+                  <textarea
+                    rows="10"
+                    name="message"
+                    maxlength="5000"
+                    id="message"></textarea>
+                </div>
+
+                <div class="row">
+                  <button class="btn icon bg-blue" type="submit">
+                    <i class="fa fa-paper-plane"></i> Send message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+        </section>
+        <!-- / id content -->
+
+        <aside id="sidebar">
+          <div id="aside-content">
+            <section class="box bdr-light-white">
+              <h2>Elements</h2>
+              <div class="inner">
+                <ul class="link-list">
+                  <li><a href="index.html#box">Box Style</a></li>
+                  <li><a href="index.html#paragraph">Paragraph Style</a></li>
+                  <li><a href="blog-list.html">Blog list Style</a></li>
+                  <li><a href="blog-content.html">Blog content Style</a></li>
+                  <li><a href="index.html#item-list">Item list Style</a></li>
+                  <li><a href="index.html#pagination">Pagination Style</a></li>
+                  <li><a href="index.html#button">Button Style</a></li>
+                  <li>
+                    <a href="index.html#form-element">Form element Style</a>
+                  </li>
+                  <li><a href="index.html#table">Table Style</a></li>
                 </ul>
-            </nav>
-        </header>
+              </div>
 
-        <main>
-            <section id="content">
-                <section class="block">
-                    <h2>CONTACT</h2>
-                    <p>Proin vulputate interdum mauris in tincidunt. Phasellus at dui arcu. Maecenas cursus arcu quis arcu volutpat pulvinar. Vivamus sodales vulputate nunc. Aliquam venenatis ultrices ultricies.</p>
-                    <form action="" method="POST">
-                        <div class="form-group">
-                            <div class="row row-spacing-2">
-                                <div class="col-2 col-lg">
-                                    <label for="name">Full Name <em>*</em></label>
-                                    <input type="text" name="name" maxlength="100" id="name">
-                                </div>
-
-                                <div class="col-2 col-lg">
-                                    <label for="email">Email Address <em>*</em></label>
-                                    <input type="email" name="email" maxlength="100" id="email">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="subject">Subject</label>
-                                <input type="text" name="subject" maxlength="100" id="subject">
-                            </div>
-
-                            <div class="row">
-                                <label for="message">Message <em>*</em></label>
-                                <textarea rows="10" name="message" maxlength="5000" id="message"></textarea>
-                            </div>
-                            
-                            <div class="row">
-                                <button class="btn bg-blue" type="submit"><i class="fa fa-paper-plane"></i> Send message</button>
-                            </div>
-                        </div>
-                    </form>
-                </section>
-
-                <section class="block">
-                    <h2>CONTACT</h2>
-                    <p>Proin vulputate interdum mauris in tincidunt. Phasellus at dui arcu. Maecenas cursus arcu quis arcu volutpat pulvinar. Vivamus sodales vulputate nunc. Aliquam venenatis ultrices ultricies.</p>
-                    <form action="" method="POST">
-                        <div class="form-group bdr-style">
-                            <div class="row row-spacing-2">
-                                <div class="col-2 col-lg">
-                                    <label for="name">Full Name <em>*</em></label>
-                                    <input type="text" name="name" maxlength="100" id="name">
-                                </div>
-
-                                <div class="col-2 col-lg">
-                                    <label for="email">Email Address <em>*</em></label>
-                                    <input type="email" name="email" maxlength="100" id="email">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="subject">Subject</label>
-                                <input type="text" name="subject" maxlength="100" id="subject">
-                            </div>
-
-                            <div class="row">
-                                <label for="message">Message <em>*</em></label>
-                                <textarea rows="10" name="message" maxlength="5000" id="message"></textarea>
-                            </div>
-                            
-                            <div class="row">
-                                <button class="btn bg-blue" type="submit"><i class="fa fa-paper-plane"></i> Send message</button>
-                            </div>
-                        </div>
-                    </form>
-                </section>
+              <div class="download">
+                <a
+                  class="btn-lg bg-light-pink"
+                  href="https://github.com/hocwebchuan/Rabbie-layout-basic-theme"
+                  target="_blank"
+                  >Download - FREE!</a
+                >
+              </div>
             </section>
-            <!-- / id content -->
+          </div>
+        </aside>
+        <!-- / aside -->
 
-            <aside id="sidebar">
-                <div id="aside-content">
-                    <section class="box bdr-light-white">
-                        <h2>Elements</h2>
-                        <div class="inner">
-                            <ul class="link-list">
-                                <li><a href="index.html#box">Box Style</a></li>
-                                <li><a href="index.html#paragraph">Paragraph Style</a></li>
-                                <li><a href="blog-list.html">Blog list Style</a></li>
-                                <li><a href="blog-content.html">Blog content Style</a></li>
-                                <li><a href="index.html#item-list">Item list Style</a></li>
-                                <li><a href="index.html#pagination">Pagination Style</a></li>
-                                <li><a href="index.html#button">Button Style</a></li>
-                                <li><a href="index.html#form-element">Form element Style</a></li>
-                                <li><a href="index.html#table">Table Style</a></li>
-                            </ul>
-                        </div>
+        <ul class="box-list">
+          <li>Box 1</li>
+          <li>Box 2</li>
+          <li>Box 3</li>
+          <li>Box 4</li>
+        </ul>
+      </main>
+      <!-- / main -->
 
-                        <div class="download"><a class="btn-lg bg-light-pink" href="https://github.com/hocwebchuan/Rabbie-layout-basic-theme" target="_blank">Download - FREE!</a></div>
-                    </section>
-                </div>
-            </aside>
-            <!-- / aside -->
-
-            <ul class="box-list">
-                <li>Box 1</li>
-                <li>Box 2</li>
-                <li>Box 3</li>
-                <li>Box 4</li>
-            </ul>
-        </main>
-        <!-- / main -->
-
-        <footer>&copy;2019 <a href="https://hocwebchuan.com">Hoc Web Chuan</a> All Rights Reserved.</footer>
+      <footer>
+        &copy;2019 <a href="https://hocwebchuan.com">Hoc Web Chuan</a> All
+        Rights Reserved.
+      </footer>
     </div>
     <!-- / id layout -->
     <script src="vendor/jQuery/jquery.min.js"></script>
     <script src="js/function.js"></script>
     <script src="js/custom.js"></script>
-</body>
+  </body>
 </html>

@@ -2,78 +2,93 @@
 // Button style
 // -----------------------------------------------------------------------------
 button {
-    @include button;
+  @include button;
 }
 .btn-group > div {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .btn {
-    border-radius: 4px;
-    color: $color-white;
-    font-size: $fontsize-s;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 20px;
-    text-align: center;
-    &:hover {
-        opacity: 0.7;
-    }
-    i {
-        margin-right: 5px;
-    }
+  border-radius: 4px;
+  color: $color-white;
+  font-size: $fontsize-s;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-align: center;
+  &.bdr30 {
+    border-radius: 30px;
+  }
+  &:hover {
+    opacity: 0.7;
+  }
+  i {
+    margin-right: 5px;
+  }
+  &.icon {
+    padding-left: 15px;
+  }
 }
 a.btn {
-    display: inline-block;
-    height: 32px;
-    vertical-align: top;
-    transition: $transition-all;
-    &:hover {
-        color: #fff;
-    }
+  display: inline-block;
+  height: 32px;
+  vertical-align: top;
+  transition: $transition-all;
+  &:hover {
+    color: #fff;
+  }
 }
 .btn-mx,
 a.btn-mx {
-    @extend .btn;
-    font-size: $fontsize-m;
-    height: auto;
-    padding: 10px 20px;
-    max-width: 1024px;
-    width: 100%;
-    @include breakpoint(640) {
-        max-width: 100%;
-    };
+  @extend .btn;
+  font-size: $fontsize-m;
+  height: auto;
+  padding: 10px 20px;
+  max-width: 1024px;
+  width: 100%;
+  @include breakpoint(640) {
+    max-width: 100%;
+  }
 }
 .btn-lg {
-    @extend .btn-mx;
-    width: 50%;
-    @include breakpoint(640) {
-        max-width: 100%;
-    };
+  @extend .btn-mx;
+  width: 50%;
+  @include breakpoint(640) {
+    max-width: 100%;
+  }
 }
 .btn-icon {
-    @extend .btn;
-    display: inline-block;
-    padding: 0;
-    text-align: center;
-    line-height: normal;
-    height: $x30;
-    width: $x30;
-    i {
-        margin-right: 0;
-    }
-    &.x20 {
-        font-size: $fontsize-ss;
-        height: $x20;
-        width: $x20;
-    }
-    &.x40 {
-        font-size: $fontsize-m;
-        height: $x40;
-        width: $x40;
-    }
-    &.x50 {
-        font-size: $fontsize-b;
-        height: $x50;
-        width: $x50;
-    }
+  @extend .btn;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  line-height: normal;
+  height: $x30;
+  width: $x30;
+  i {
+    margin-right: 0;
+  }
+  &.x20 {
+    font-size: $fontsize-ss;
+    height: $x20;
+    width: $x20;
+  }
+  &.x40 {
+    font-size: $fontsize-m;
+    height: $x40;
+    width: $x40;
+  }
+  &.x50 {
+    font-size: $fontsize-b;
+    height: $x50;
+    width: $x50;
+  }
+}
+.label {
+  color: $color-white;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 12px;
+  padding: 0 5px;
+  text-align: center;
+  width: 80px;
 }

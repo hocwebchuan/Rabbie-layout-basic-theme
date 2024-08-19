@@ -1,31 +1,16 @@
 @charset 'UTF-8';
 
 /* Base */
-@import
-'base/variables',
-'base/mixins',
-'base/reset',
-'base/helper',
-'base/base';
+@import "base/variables", "base/mixins", "base/reset", "base/helper",
+  "base/base";
 
 /* Layout */
-@import
-'layout/grid',
-'layout/header',
-'layout/nav',
-'layout/main',
-'layout/aside',
-'layout/footer';
+@import "layout/grid", "layout/header", "layout/nav", "layout/main",
+  "layout/aside", "layout/footer";
 
 /* Component */
-@import
-'components/headline',
-'components/box',
-'components/forms',
-'components/button',
-'components/list',
-'components/table';
+@import "components/headline", "components/box", "components/forms",
+  "components/button", "components/list", "components/table";
 
 /*.Page specific styles */
-@import
-'pages/home'
+@import "pages/admin";

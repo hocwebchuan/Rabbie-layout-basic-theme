@@ -7,7 +7,7 @@
 $h: 80px;
 
 // Regular font family
-$font-default: "Helvetica Neue",Helvetica,Arial,sans-serif !default;
+$font-default: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
 // Text color
 $color-default: #222317 !default;
@@ -19,7 +19,7 @@ $color-success: #7be0eb !default;
 $color-warning: yellow !default;
 $color-error: #e5004f !default;
 $color-black: #000 !default;
-$color-white: #FFF !default;
+$color-white: #fff !default;
 
 // Link color
 $link-color: #1a5eba !default;
@@ -42,18 +42,25 @@ $pink: #e91e63;
 $purple: #9c27b0;
 $black: #000;
 $gray: #666;
+$gray1: #111;
+$gray3: #333;
+$gray6: #666;
+$gray9: #999;
+$grayc: #ccc;
+$grayd: #ddd;
+$graye: #eee;
 
 // Light
-$light-white: lighten($white, 10%);
-$light-red: lighten($red, 10%);
-$light-blue: lighten($blue, 10%);
-$light-green: lighten($green, 10%);
-$light-yellow: lighten($yellow, 10%);
-$light-orange: lighten($orange, 10%);
-$light-pink: lighten($pink, 10%);
-$light-purple: lighten($purple, 10%);
-$light-black: lighten($black, 10%);
-$light-gray: lighten($gray, 10%);
+$light-white: lighten($white, 15%);
+$light-red: lighten($red, 15%);
+$light-blue: lighten($blue, 15%);
+$light-green: lighten($green, 15%);
+$light-yellow: lighten($yellow, 15%);
+$light-orange: lighten($orange, 15%);
+$light-pink: lighten($pink, 15%);
+$light-purple: lighten($purple, 15%);
+$light-black: lighten($black, 15%);
+$light-gray: lighten($gray, 15%);
 
 // More light
 $light-white-ml: lighten($white, 25%);
@@ -142,19 +149,19 @@ $x100p: 100%;
 
 // Breakpoints
 $grid-breakpoints: (
-    xs: 320px,
-    sm: 480px,
-    sp: 640px,
-    md: 768px,
-    lg: 1024px,
-    xl: 1200px
+  xs: 320px,
+  sm: 480px,
+  sp: 640px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1200px,
 ) !default;
 
 // Relative or absolute URL
-$base-url: '/img/' !default;
+$base-url: "/img/" !default;
 
 // Transition
-$transition-duration: .3s !default;
+$transition-duration: 0.3s !default;
 $transition-all: $transition-duration all ease-out !default;
 $transition-color: $transition-duration color !default;
 $transition-background: $transition-duration background !default;
