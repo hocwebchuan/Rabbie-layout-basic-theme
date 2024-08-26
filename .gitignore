@@ -1,0 +1,8 @@
+# General
+.DS_Store
+.vscode
+.env
+ignore
+
+# Local Config
+node_modules/
