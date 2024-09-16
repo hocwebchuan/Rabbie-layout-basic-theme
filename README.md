@@ -2,10 +2,14 @@
 
 This Theme convenient for your practicing any websites.
 
+## Demo
+
+Demo at [Rabbie Theme](https://rabbie-theme.hocwebchuan.com)
+
 ## Table of Contents
 
 - [Available Scripts](#available-scripts)
-- [Using contents](#using-content)
+- [Using contents]
   - [Grid system](#grid-system)
   - [Color system](#color-system)
   - [Fontawsome](#fontawsome)
@@ -65,10 +69,6 @@ If you don't want to use SCSS files, use these files:
 ```
 
 Simple and familiar with everyone!
-
-## Using contents
-
-Demo at [Rabbie Theme](https://rabbie-theme.hocwebchuan.com)
 
 ### Grid system
 
