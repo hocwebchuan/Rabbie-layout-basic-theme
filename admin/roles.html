@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rabbie Theme</title>
+    <meta
+      name="viewport"
+      content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0" />
+    <link
+      href="../vendor/Font-Awesome-master/css/all.min.css"
+      rel="stylesheet"
+      media="all" />
+    <link
+      href="../vendor/sweetalert2/sweetalert2.min.css"
+      rel="stylesheet"
+      media="all" />
+    <link href="../css/style.css" rel="stylesheet" media="all" />
+  </head>
+  <body id="admin">
+    <div id="layout">
+      <header>
+        <h1>
+          <a href="https://rabbie-theme.hocwebchuan.com/"
+            ><span>R</span>abbie Theme</a
+          >
+        </h1>
+        <nav id="global-nav">
+          <div class="menu">
+            MENU
+            <span class="bdr-t"></span>
+          </div>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog-list.html">Blog</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="../admin/index.html" class="active">Admin</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="admin-content">
+          <section id="table-style" class="mb40">
+            <h2>Roles</h2>
+            <ul class="btn-filter tags-list">
+              <li>
+                <button class="btn icon bg-blue">
+                  <i class="fa fa-plus"></i> Role
+                </button>
+              </li>
+              <li>
+                <button class="btn icon bg-blue">
+                  <i class="fa fa-plus"></i> Permission
+                </button>
+              </li>
+            </ul>
+            <table class="tbl-admin">
+              <tr>
+                <th class="w60">Role</th>
+                <th>Permission</th>
+                <th class="wp30">Description</th>
+                <th class="w80 align-c">
+                  <i class="fas fa-cog"></i>
+                </th>
+              </tr>
+              <tr>
+                <td>ADMINISTRATOR</td>
+                <td>
+                  <table class="tbl-inner">
+                    <tr>
+                      <th>User:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-user-administrator"
+                              ><input
+                                type="checkbox"
+                                id="view-user-administrator"
+                                name="view-user-administrator" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-user-administrator"
+                              ><input
+                                type="checkbox"
+                                id="add-user-administrator"
+                                name="add-user-administrator" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-user-administrator"
+                              ><input
+                                type="checkbox"
+                                id="edit-user-administrator"
+                                name="edit-user-administrator" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-user-administrator"
+                              ><input
+                                type="checkbox"
+                                id="delete-user-administrator"
+                                name="delete-user-administrator" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-user-administrator"
+                              ><input
+                                type="checkbox"
+                                id="full-user-administrator"
+                                name="full-user-administrator" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Role:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-role-administrator"
+                              ><input
+                                type="checkbox"
+                                id="view-role-administrator"
+                                name="view-role-administrator" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-role-administrator"
+                              ><input
+                                type="checkbox"
+                                id="add-role-administrator"
+                                name="add-role-administrator" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-role-administrator"
+                              ><input
+                                type="checkbox"
+                                id="edit-role-administrator"
+                                name="edit-role-administrator" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-role-administrator"
+                              ><input
+                                type="checkbox"
+                                id="delete-role-administrator"
+                                name="delete-role-administrator" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-role-administrator"
+                              ><input
+                                type="checkbox"
+                                id="full-role-administrator"
+                                name="full-role-administrator" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>Post:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-post-administrator"
+                              ><input
+                                type="checkbox"
+                                id="view-post-administrator"
+                                name="view-post-administrator" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-post-administrator"
+                              ><input
+                                type="checkbox"
+                                id="add-post-administrator"
+                                name="add-post-administrator" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-post-administrator"
+                              ><input
+                                type="checkbox"
+                                id="edit-post-administrator"
+                                name="edit-post-administrator" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-post-administrator"
+                              ><input
+                                type="checkbox"
+                                id="delete-post-administrator"
+                                name="delete-post-administrator" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-post-administrator"
+                              ><input
+                                type="checkbox"
+                                id="full-post-administrator"
+                                name="full-post-administrator" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>Contact:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-contact-administrator"
+                              ><input
+                                type="checkbox"
+                                id="view-contact-administrator"
+                                name="view-contact-administrator" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-contact-administrator"
+                              ><input
+                                type="checkbox"
+                                id="add-contact-administrator"
+                                name="add-contact-administrator" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-contact-administrator"
+                              ><input
+                                type="checkbox"
+                                id="edit-contact-administrator"
+                                name="edit-contact-administrator" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-contact-administrator"
+                              ><input
+                                type="checkbox"
+                                id="delete-contact-administrator"
+                                name="delete-contact-administrator" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-contact-administrator"
+                              ><input
+                                type="checkbox"
+                                id="full-contact-administrator"
+                                name="full-contact-administrator" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td>
+                  Donec eget enim et lacus ultricies mollis. Aenean egestas
+                  sapien nulla, in sagittis odio scelerisque at. Donec sit amet
+                  placerat purus, ac rutrum purus.
+                </td>
+                <td class="align-c">
+                  <a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Moderator</td>
+                <td>
+                  <table class="tbl-inner">
+                    <tr>
+                      <th>User:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-user-moderator"
+                              ><input
+                                type="checkbox"
+                                id="view-user-moderator"
+                                name="view-user-moderator" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-user-moderator"
+                              ><input
+                                type="checkbox"
+                                id="add-user-moderator"
+                                name="add-user-moderator" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-user-moderator"
+                              ><input
+                                type="checkbox"
+                                id="edit-user-moderator"
+                                name="edit-user-moderator" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-user-moderator"
+                              ><input
+                                type="checkbox"
+                                id="delete-user-moderator"
+                                name="delete-user-moderator" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-user-moderator"
+                              ><input
+                                type="checkbox"
+                                id="full-user-moderator"
+                                name="full-user-moderator" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Role:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-role-moderator"
+                              ><input
+                                type="checkbox"
+                                id="view-role-moderator"
+                                name="view-role-moderator" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-role-moderator"
+                              ><input
+                                type="checkbox"
+                                id="add-role-moderator"
+                                name="add-role-moderator" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-role-moderator"
+                              ><input
+                                type="checkbox"
+                                id="edit-role-moderator"
+                                name="edit-role-moderator" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-role-moderator"
+                              ><input
+                                type="checkbox"
+                                id="delete-role-moderator"
+                                name="delete-role-moderator" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-role-moderator"
+                              ><input
+                                type="checkbox"
+                                id="full-role-moderator"
+                                name="full-role-moderator" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>Post:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-post-moderator"
+                              ><input
+                                type="checkbox"
+                                id="view-post-moderator"
+                                name="view-post-moderator" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-post-moderator"
+                              ><input
+                                type="checkbox"
+                                id="add-post-moderator"
+                                name="add-post-moderator" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-post-moderator"
+                              ><input
+                                type="checkbox"
+                                id="edit-post-moderator"
+                                name="edit-post-moderator" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-post-moderator"
+                              ><input
+                                type="checkbox"
+                                id="delete-post-moderator"
+                                name="delete-post-moderator" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-post-moderator"
+                              ><input
+                                type="checkbox"
+                                id="full-post-moderator"
+                                name="full-post-moderator" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>Contact:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-contact-moderator"
+                              ><input
+                                type="checkbox"
+                                id="view-contact-moderator"
+                                name="view-contact-moderator" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-contact-moderator"
+                              ><input
+                                type="checkbox"
+                                id="add-contact-moderator"
+                                name="add-contact-moderator" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-contact-moderator"
+                              ><input
+                                type="checkbox"
+                                id="edit-contact-moderator"
+                                name="edit-contact-moderator" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-contact-moderator"
+                              ><input
+                                type="checkbox"
+                                id="delete-contact-moderator"
+                                name="delete-contact-moderator" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-contact-moderator"
+                              ><input
+                                type="checkbox"
+                                id="full-contact-moderator"
+                                name="full-contact-moderator" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td>
+                  Aenean egestas sapien nulla, in sagittis odio scelerisque at.
+                  Donec sit amet placerat purus, ac rutrum purus. Donec eget
+                  enim et lacus ultricies mollis.
+                </td>
+                <td class="align-c">
+                  <a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Writer</td>
+                <td>
+                  <table class="tbl-inner">
+                    <tr>
+                      <th>User:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-user-writer"
+                              ><input
+                                type="checkbox"
+                                id="view-user-writer"
+                                name="view-user-writer" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-user-writer"
+                              ><input
+                                type="checkbox"
+                                id="add-user-writer"
+                                name="add-user-writer" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-user-writer"
+                              ><input
+                                type="checkbox"
+                                id="edit-user-writer"
+                                name="edit-user-writer" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-user-writer"
+                              ><input
+                                type="checkbox"
+                                id="delete-user-writer"
+                                name="delete-user-writer" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-user-writer"
+                              ><input
+                                type="checkbox"
+                                id="full-user-writer"
+                                name="full-user-writer" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Role:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-role-writer"
+                              ><input
+                                type="checkbox"
+                                id="view-role-writer"
+                                name="view-role-writer" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-role-writer"
+                              ><input
+                                type="checkbox"
+                                id="add-role-writer"
+                                name="add-role-writer" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-role-writer"
+                              ><input
+                                type="checkbox"
+                                id="edit-role-writer"
+                                name="edit-role-writer" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-role-writer"
+                              ><input
+                                type="checkbox"
+                                id="delete-role-writer"
+                                name="delete-role-writer" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-role-writer"
+                              ><input
+                                type="checkbox"
+                                id="full-role-writer"
+                                name="full-role-writer" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>Post:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-post-writer"
+                              ><input
+                                type="checkbox"
+                                id="view-post-writer"
+                                name="view-post-writer" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-post-writer"
+                              ><input
+                                type="checkbox"
+                                id="add-post-writer"
+                                name="add-post-writer" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-post-writer"
+                              ><input
+                                type="checkbox"
+                                id="edit-post-writer"
+                                name="edit-post-writer" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-post-writer"
+                              ><input
+                                type="checkbox"
+                                id="delete-post-writer"
+                                name="delete-post-writer" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-post-writer"
+                              ><input
+                                type="checkbox"
+                                id="full-post-writer"
+                                name="full-post-writer" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>Contact:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-contact-writer"
+                              ><input
+                                type="checkbox"
+                                id="view-contact-writer"
+                                name="view-contact-writer" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-contact-writer"
+                              ><input
+                                type="checkbox"
+                                id="add-contact-writer"
+                                name="add-contact-writer" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-contact-writer"
+                              ><input
+                                type="checkbox"
+                                id="edit-contact-writer"
+                                name="edit-contact-writer" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-contact-writer"
+                              ><input
+                                type="checkbox"
+                                id="delete-contact-writer"
+                                name="delete-contact-writer" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-contact-writer"
+                              ><input
+                                type="checkbox"
+                                id="full-contact-writer"
+                                name="full-contact-writer" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td>
+                  Aenean egestas sapien nulla, in sagittis odio scelerisque at.
+                  Donec sit amet placerat purus, ac rutrum purus. Donec eget
+                  enim et lacus ultricies mollis.
+                </td>
+                <td class="align-c">
+                  <a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Member</td>
+                <td>
+                  <table class="tbl-inner">
+                    <tr>
+                      <th>User:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-user-member"
+                              ><input
+                                type="checkbox"
+                                id="view-user-member"
+                                name="view-user-member" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-user-member"
+                              ><input
+                                type="checkbox"
+                                id="add-user-member"
+                                name="add-user-member" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-user-member"
+                              ><input
+                                type="checkbox"
+                                id="edit-user-member"
+                                name="edit-user-member" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-user-member"
+                              ><input
+                                type="checkbox"
+                                id="delete-user-member"
+                                name="delete-user-member" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-user-member"
+                              ><input
+                                type="checkbox"
+                                id="full-user-member"
+                                name="full-user-member" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Role:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-role-member"
+                              ><input
+                                type="checkbox"
+                                id="view-role-member"
+                                name="view-role-member" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-role-member"
+                              ><input
+                                type="checkbox"
+                                id="add-role-member"
+                                name="add-role-member" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-role-member"
+                              ><input
+                                type="checkbox"
+                                id="edit-role-member"
+                                name="edit-role-member" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-role-member"
+                              ><input
+                                type="checkbox"
+                                id="delete-role-member"
+                                name="delete-role-member" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-role-member"
+                              ><input
+                                type="checkbox"
+                                id="full-role-member"
+                                name="full-role-member" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>Post:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-post-member"
+                              ><input
+                                type="checkbox"
+                                id="view-post-member"
+                                name="view-post-member" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-post-member"
+                              ><input
+                                type="checkbox"
+                                id="add-post-member"
+                                name="add-post-member" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-post-member"
+                              ><input
+                                type="checkbox"
+                                id="edit-post-member"
+                                name="edit-post-member" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-post-member"
+                              ><input
+                                type="checkbox"
+                                id="delete-post-member"
+                                name="delete-post-member" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-post-member"
+                              ><input
+                                type="checkbox"
+                                id="full-post-member"
+                                name="full-post-member" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>Contact:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-contact-member"
+                              ><input
+                                type="checkbox"
+                                id="view-contact-member"
+                                name="view-contact-member" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-contact-member"
+                              ><input
+                                type="checkbox"
+                                id="add-contact-member"
+                                name="add-contact-member" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-contact-member"
+                              ><input
+                                type="checkbox"
+                                id="edit-contact-member"
+                                name="edit-contact-member" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-contact-member"
+                              ><input
+                                type="checkbox"
+                                id="delete-contact-member"
+                                name="delete-contact-member" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-contact-member"
+                              ><input
+                                type="checkbox"
+                                id="full-contact-member"
+                                name="full-contact-member" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td>
+                  Aenean egestas sapien nulla, in sagittis odio scelerisque at.
+                  Donec sit amet placerat purus, ac rutrum purus. Donec eget
+                  enim et lacus ultricies mollis.
+                </td>
+                <td class="align-c">
+                  <a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Guess</td>
+                <td>
+                  <table class="tbl-inner">
+                    <tr>
+                      <th>User:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-user-guess"
+                              ><input
+                                type="checkbox"
+                                id="view-user-guess"
+                                name="view-user-guess" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-user-guess"
+                              ><input
+                                type="checkbox"
+                                id="add-user-guess"
+                                name="add-user-guess" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-user-guess"
+                              ><input
+                                type="checkbox"
+                                id="edit-user-guess"
+                                name="edit-user-guess" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-user-guess"
+                              ><input
+                                type="checkbox"
+                                id="delete-user-guess"
+                                name="delete-user-guess" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-user-guess"
+                              ><input
+                                type="checkbox"
+                                id="full-user-guess"
+                                name="full-user-guess" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Role:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-role-guess"
+                              ><input
+                                type="checkbox"
+                                id="view-role-guess"
+                                name="view-role-guess" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-role-guess"
+                              ><input
+                                type="checkbox"
+                                id="add-role-guess"
+                                name="add-role-guess" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-role-guess"
+                              ><input
+                                type="checkbox"
+                                id="edit-role-guess"
+                                name="edit-role-guess" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-role-guess"
+                              ><input
+                                type="checkbox"
+                                id="delete-role-guess"
+                                name="delete-role-guess" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-role-guess"
+                              ><input
+                                type="checkbox"
+                                id="full-role-guess"
+                                name="full-role-guess" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>Post:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-post-guess"
+                              ><input
+                                type="checkbox"
+                                id="view-post-guess"
+                                name="view-post-guess" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-post-guess"
+                              ><input
+                                type="checkbox"
+                                id="add-post-guess"
+                                name="add-post-guess" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-post-guess"
+                              ><input
+                                type="checkbox"
+                                id="edit-post-guess"
+                                name="edit-post-guess" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-post-guess"
+                              ><input
+                                type="checkbox"
+                                id="delete-post-guess"
+                                name="delete-post-guess" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-post-guess"
+                              ><input
+                                type="checkbox"
+                                id="full-post-guess"
+                                name="full-post-guess" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>Contact:</th>
+                      <td>
+                        <ul class="inline-list">
+                          <li>
+                            <label for="view-contact-guess"
+                              ><input
+                                type="checkbox"
+                                id="view-contact-guess"
+                                name="view-contact-guess" />
+                              view</label
+                            >
+                          </li>
+                          <li>
+                            <label for="add-contact-guess"
+                              ><input
+                                type="checkbox"
+                                id="add-contact-guess"
+                                name="add-contact-guess" />
+                              add</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="edit-contact-guess"
+                              ><input
+                                type="checkbox"
+                                id="edit-contact-guess"
+                                name="edit-contact-guess" />
+                              edit</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="delete-contact-guess"
+                              ><input
+                                type="checkbox"
+                                id="delete-contact-guess"
+                                name="delete-contact-guess" />
+                              delete</label
+                            >
+                          </li>
+
+                          <li>
+                            <label for="full-contact-guess"
+                              ><input
+                                type="checkbox"
+                                id="full-contact-guess"
+                                name="full-contact-guess" />
+                              full</label
+                            >
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td>
+                  Aenean egestas sapien nulla, in sagittis odio scelerisque at.
+                  Donec sit amet placerat purus, ac rutrum purus. Donec eget
+                  enim et lacus ultricies mollis.
+                </td>
+                <td class="align-c">
+                  <a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
+                </td>
+              </tr>
+            </table>
+            <nav class="pagination align-c mb40">
+              <ul>
+                <li>
+                  <a href="index.html">
+                    <span><i class="fa fa-angle-left"></i></span>
+                  </a>
+                </li>
+                <li><a href="index.html">1</a></li>
+                <li class="active"><a href="index.html">2</a></li>
+                <li><a href="index.html">3</a></li>
+                <li><a href="index.html">4</a></li>
+                <li><a href="index.html">5</a></li>
+                <li>
+                  <a href="index.html">
+                    <span><i class="fa fa-angle-right"></i></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <!-- / #table style -->
+        </section>
+        <!-- / id content -->
+
+        <aside id="admin-sidebar">
+          <section class="mb40">
+            <div class="inner manageList">
+              <h2 class="mHead">Elements</h2>
+              <ul class="nav-link mb40">
+                <li>
+                  <i class="fa fa-angle-right"></i
+                  ><a href="../admin/index.html#table-style">Table Style</a>
+                </li>
+
+                <li>
+                  <i class="fa fa-angle-right"></i
+                  ><a href="../admin/index.html#form-element">Form Elements</a>
+                </li>
+
+                <li>
+                  <i class="fa fa-angle-right"></i><a href="#box">Box Style</a>
+                </li>
+
+                <li>
+                  <i class="fa fa-angle-right"></i
+                  ><a href="../admin/index.html#flex-box">Flex Box Style</a>
+                </li>
+
+                <li>
+                  <i class="fa fa-angle-right"></i
+                  ><a href="../admin/index.html#alert">Alert Style</a>
+                </li>
+              </ul>
+
+              <h2 class="mHead">Setting</h2>
+              <ul class="nav-link mb40">
+                <li>
+                  <i class="fa fa-user"></i
+                  ><a href="../setting/profile.html">Profile</a>
+                </li>
+                <li>
+                  <i class="fa fa-lock"></i
+                  ><a href="../setting/password.html">Password</a>
+                </li>
+                <li>
+                  <i class="fa fa-cog"></i
+                  ><a href="../setting/index.html">Setting</a>
+                </li>
+              </ul>
+
+              <h2 class="mHead">Manage</h2>
+              <ul class="nav-link">
+                <li>
+                  <i class="fa fa-user"></i
+                  ><a href="../admin/user.html">User</a>
+                </li>
+                <li class="active">
+                  <i class="fa fa-user-shield"></i
+                  ><a href="../admin/roles.html">Roles</a>
+                </li>
+                <li>
+                  <i class="fa fa-envelope"></i
+                  ><a href="../admin/contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </aside>
+        <!-- / aside -->
+      </main>
+      <!-- / main -->
+
+      <footer>
+        &copy;2019 <a href="https://hocwebchuan.com">Hoc Web Chuan</a> All
+        Rights Reserved.
+      </footer>
+    </div>
+    <!-- / id layout -->
+    <script src="../vendor/jQuery/jquery.min.js"></script>
+    <script src="../vendor/sweetalert2/sweetalert2.all.min.js"></script>
+    <script src="../js/function.js"></script>
+    <script src="../js/custom.js"></script>
+  </body>
+</html>

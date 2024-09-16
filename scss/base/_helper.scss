@@ -2,121 +2,121 @@
 // Modules
 // -----------------------------------------------------------------------------
 .blue {
-  color: $blue;
+  color: $blue !important;
 }
 .red {
-  color: $red;
+  color: $red !important;
 }
 .orange {
-  color: $orange;
+  color: $orange !important;
 }
 .yellow {
-  color: $yellow;
+  color: $yellow !important;
 }
 .green {
-  color: $green;
+  color: $green !important;
 }
 .pink {
-  color: $pink;
+  color: $pink !important;
 }
 .purple {
-  color: $purple;
+  color: $purple !important;
 }
 .black {
-  color: $black;
+  color: $black !important;
 }
 .light-blue {
-  color: $light-blue;
+  color: $light-blue !important;
 }
 .light-red {
-  color: $light-red;
+  color: $light-red !important;
 }
 .light-orange {
-  color: $light-orange;
+  color: $light-orange !important;
 }
 .light-yellow {
-  color: $light-yellow;
+  color: $light-yellow !important;
 }
 .light-green {
-  color: $light-green;
+  color: $light-green !important;
 }
 .light-pink {
-  color: $light-pink;
+  color: $light-pink !important;
 }
 .light-purple {
-  color: $light-purple;
+  color: $light-purple !important;
 }
 .light-black {
-  color: $light-black;
+  color: $light-black !important;
 }
 .light-blue-xl {
-  color: $light-blue-xl;
+  color: $light-blue-xl !important;
 }
 .light-red-xl {
-  color: $light-red-xl;
+  color: $light-red-xl !important;
 }
 .light-orange-xl {
-  color: $light-orange-xl;
+  color: $light-orange-xl !important;
 }
 .light-yellow-xl {
-  color: $light-yellow-xl;
+  color: $light-yellow-xl !important;
 }
 .light-green-xl {
-  color: $light-green-xl;
+  color: $light-green-xl !important;
 }
 .light-pink-xl {
-  color: $light-pink-xl;
+  color: $light-pink-xl !important;
 }
 .light-purple-xl {
-  color: $light-purple-xl;
+  color: $light-purple-xl !important;
 }
 .light-black-xl {
-  color: $light-black-xl;
+  color: $light-black-xl !important;
 }
 .bg-blue {
-  background-color: $blue;
+  background-color: $blue !important;
 }
 .bg-red {
-  background-color: $red;
+  background-color: $red !important;
 }
 .bg-orange {
-  background-color: $orange;
+  background-color: $orange !important;
 }
 .bg-yellow {
-  background-color: $yellow;
+  background-color: $yellow !important;
 }
 .bg-green {
-  background-color: $green;
+  background-color: $green !important;
 }
 .bg-pink {
-  background-color: $pink;
+  background-color: $pink !important;
 }
 .bg-purple {
-  background-color: $purple;
+  background-color: $purple !important;
 }
 .bg-black {
-  background-color: $black;
+  background-color: $black !important;
 }
 .bg-gray1 {
-  background-color: $gray1;
+  background-color: $gray1 !important;
 }
 .bg-gray3 {
-  background-color: $gray3;
+  background-color: $gray3 !important;
 }
 .bg-gray6 {
-  background-color: $gray6;
+  background-color: $gray6 !important;
 }
 .bg-gray9 {
-  background-color: $gray9;
+  background-color: $gray9 !important;
 }
 .bg-grayc {
-  background-color: $grayc;
+  background-color: $grayc !important;
 }
 .bg-grayd {
-  background-color: $grayd;
+  background-color: $grayd !important;
 }
 .bg-graye {
-  background-color: $graye;
+  background-color: $graye !important;
   color: $color-default !important;
 }
 .bg-white {
@@ -124,132 +124,132 @@
   color: $color-default !important;
   border: $bdr-gray;
   &:hover {
-    border-color: $color-default;
+    border-color: $color-default !important;
   }
 }
 .bg-light-blue {
-  background-color: $light-blue;
+  background-color: $light-blue !important;
 }
 .bg-light-red {
-  background-color: $light-red;
+  background-color: $light-red !important;
 }
 .bg-light-orange {
-  background-color: $light-orange;
+  background-color: $light-orange !important;
 }
 .bg-light-yellow {
-  background-color: $light-yellow;
+  background-color: $light-yellow !important;
 }
 .bg-light-green {
-  background-color: $light-green;
+  background-color: $light-green !important;
 }
 .bg-light-pink {
-  background-color: $light-pink;
+  background-color: $light-pink !important;
 }
 .bg-light-purple {
-  background-color: $light-purple;
+  background-color: $light-purple !important;
 }
 .bg-light-black {
-  background-color: $light-black;
+  background-color: $light-black !important;
 }
 .bg-light-gray1 {
-  background-color: $gray1;
+  background-color: $gray1 !important;
 }
 .bg-light-gray3 {
-  background-color: $gray3;
+  background-color: $gray3 !important;
 }
 .bg-light-gray6 {
-  background-color: $gray6;
+  background-color: $gray6 !important;
 }
 .bg-light-gray9 {
-  background-color: $gray9;
+  background-color: $gray9 !important;
 }
 .bg-light-grayc {
-  background-color: $grayc;
+  background-color: $grayc !important;
 }
 .bg-light-grayd {
-  background-color: $grayd;
+  background-color: $grayd !important;
 }
 .bg-light-graye {
-  background-color: $graye;
+  background-color: $graye !important;
   color: $color-default !important;
 }
 .bg-light-blue-xl {
-  background-color: $light-blue-xl;
+  background-color: $light-blue-xl !important;
 }
 .bg-light-red-xl {
-  background-color: $light-red-xl;
+  background-color: $light-red-xl !important;
 }
 .bg-light-orange-xl {
-  background-color: $light-orange-xl;
+  background-color: $light-orange-xl !important;
 }
 .bg-light-yellow-xl {
-  background-color: $light-yellow-xl;
+  background-color: $light-yellow-xl !important;
 }
 .bg-light-green-xl {
-  background-color: $light-green-xl;
+  background-color: $light-green-xl !important;
 }
 .bg-light-pink-xl {
-  background-color: $light-pink-xl;
+  background-color: $light-pink-xl !important;
 }
 .bg-light-purple-xl {
-  background-color: $light-purple-xl;
+  background-color: $light-purple-xl !important;
 }
 .bg-light-black-xl {
-  background-color: $light-black-xl;
+  background-color: $light-black-xl !important;
 }
 .bdr-white {
-  border-color: $white;
+  border-color: $white !important;
 }
 .bdr-blue {
-  border-color: $blue;
+  border-color: $blue !important;
 }
 .bdr-red {
-  border-color: $red;
+  border-color: $red !important;
 }
 .bdr-green {
-  border-color: $green;
+  border-color: $green !important;
 }
 .bdr-yellow {
-  border-color: $yellow;
+  border-color: $yellow !important;
 }
 .bdr-orange {
-  border-color: $orange;
+  border-color: $orange !important;
 }
 .bdr-pink {
-  border-color: $pink;
+  border-color: $pink !important;
 }
 .bdr-purple {
-  border-color: $purple;
+  border-color: $purple !important;
 }
 .bdr-black {
-  border-color: $black;
+  border-color: $black !important;
 }
 .bdr-light-white {
-  border-color: $light-white;
+  border-color: $light-white !important;
 }
 .bdr-light-blue {
-  border-color: $light-blue;
+  border-color: $light-blue !important;
 }
 .bdr-light-red {
-  border-color: $light-red;
+  border-color: $light-red !important;
 }
 .bdr-light-green {
-  border-color: $light-green;
+  border-color: $light-green !important;
 }
 .bdr-light-yellow {
-  border-color: $light-yellow;
+  border-color: $light-yellow !important;
 }
 .bdr-light-orange {
-  border-color: $light-orange;
+  border-color: $light-orange !important;
 }
 .bdr-light-pink {
-  border-color: $light-pink;
+  border-color: $light-pink !important;
 }
 .bdr-light-purple {
-  border-color: $light-purple;
+  border-color: $light-purple !important;
 }
 .bdr-light-black {
-  border-color: $light-black;
+  border-color: $light-black !important;
 }
 .align-l {
   text-align: left;

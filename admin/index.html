@@ -7,10 +7,14 @@
       name="viewport"
       content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0" />
     <link
-      href="vendor/Font-Awesome-master/css/all.min.css"
+      href="../vendor/Font-Awesome-master/css/all.min.css"
       rel="stylesheet"
       media="all" />
-    <link href="css/style.css" rel="stylesheet" media="all" />
+    <link
+      href="../vendor/sweetalert2/sweetalert2.min.css"
+      rel="stylesheet"
+      media="all" />
+    <link href="../css/style.css" rel="stylesheet" media="all" />
   </head>
   <body id="admin">
     <div id="layout">
@@ -26,10 +30,10 @@
             <span class="bdr-t"></span>
           </div>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog-list.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="admin-01.html" class="active">Admin</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog-list.html">Blog</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="../admin/index.html" class="active">Admin</a></li>
           </ul>
         </nav>
       </header>
@@ -56,7 +60,7 @@
                 <th class="w200">Email</th>
                 <th class="w120 align-c">Date</th>
                 <th class="w120 align-c">Status</th>
-                <th class="w80 align-c">
+                <th class="w120 align-c">
                   <i class="fas fa-cog"></i>
                 </th>
               </tr>
@@ -70,8 +74,11 @@
                 <td class="align-c">01/02/2003</td>
                 <td><span class="label bg-light-green">In progress</span></td>
                 <td class="align-c">
-                  <a href="#" class="mr20"><i class="fas fa-edit blue"></i></a
-                  ><a href="#"><i class="fas fa-times red"></i></a>
+                  <a href="#" class="hover-o mr20"
+                    ><i class="fas fa-edit blue"></i></a
+                  ><a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
                 </td>
               </tr>
 
@@ -83,8 +90,11 @@
                 <td class="align-c">01/02/2003</td>
                 <td><span class="label bg-light-red">Expired</span></td>
                 <td class="align-c">
-                  <a href="#" class="mr20"><i class="fas fa-edit blue"></i></a
-                  ><a href="#"><i class="fas fa-times red"></i></a>
+                  <a href="#" class="hover-o mr20"
+                    ><i class="fas fa-edit blue"></i></a
+                  ><a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
                 </td>
               </tr>
 
@@ -98,8 +108,11 @@
                 <td class="align-c">01/02/2003</td>
                 <td><span class="label bg-light-gray6">Closed</span></td>
                 <td class="align-c">
-                  <a href="#" class="mr20"><i class="fas fa-edit blue"></i></a
-                  ><a href="#"><i class="fas fa-times red"></i></a>
+                  <a href="#" class="hover-o mr20"
+                    ><i class="fas fa-edit blue"></i></a
+                  ><a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
                 </td>
               </tr>
 
@@ -111,8 +124,11 @@
                 <td class="align-c">01/02/2003</td>
                 <td><span class="label bg-light-green">In progress</span></td>
                 <td class="align-c">
-                  <a href="#" class="mr20"><i class="fas fa-edit blue"></i></a
-                  ><a href="#"><i class="fas fa-times red"></i></a>
+                  <a href="#" class="hover-o mr20"
+                    ><i class="fas fa-edit blue"></i></a
+                  ><a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
                 </td>
               </tr>
 
@@ -126,8 +142,11 @@
                 <td class="align-c">01/02/2003</td>
                 <td><span class="label bg-light-gray6">Closed</span></td>
                 <td class="align-c">
-                  <a href="#" class="mr20"><i class="fas fa-edit blue"></i></a
-                  ><a href="#"><i class="fas fa-times red"></i></a>
+                  <a href="#" class="hover-o mr20"
+                    ><i class="fas fa-edit blue"></i></a
+                  ><a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
                 </td>
               </tr>
 
@@ -139,8 +158,11 @@
                 <td class="align-c">01/02/2003</td>
                 <td><span class="label bg-light-blue">Done</span></td>
                 <td class="align-c">
-                  <a href="#" class="mr20"><i class="fas fa-edit blue"></i></a
-                  ><a href="#"><i class="fas fa-times red"></i></a>
+                  <a href="#" class="hover-o mr20"
+                    ><i class="fas fa-edit blue"></i></a
+                  ><a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
                 </td>
               </tr>
             </table>
@@ -936,7 +958,7 @@
                 elementum auctor.
               </div>
 
-              <div class="box-item bdr-light-white">
+              <div class="box-item bdr-light-white bg-light-green-xl">
                 Donec sit amet placerat purus, ac rutrum purus. Vivamus aliquet
                 risus ut lectus dapibus, eu gravida risus aliquet. Ut et dolor
                 lobortis leo viverra dignissim eget mollis nunc. Nunc efficitur
@@ -969,22 +991,36 @@
             </div>
           </section>
           <!-- / #Flex box -->
+
+          <section id="alert">
+            <h2>Alert style</h2>
+            <button class="btn bdr30 bg-blue" onclick="sweetalertConfirm()">
+              Confirm
+            </button>
+            <button class="btn bdr30 bg-blue" onclick="sweetalertSuccess()">
+              Success
+            </button>
+            <button class="btn bdr30 bg-blue" onclick="sweetalertCountLess()">
+              CountLess
+            </button>
+          </section>
+          <!-- / #box -->
         </section>
         <!-- / id content -->
 
         <aside id="admin-sidebar">
           <section class="mb40">
             <div class="inner manageList">
-              <h2 class="mHead">Settings</h2>
+              <h2 class="mHead">Elements</h2>
               <ul class="nav-link mb40">
-                <li class="active">
+                <li>
                   <i class="fa fa-angle-right"></i
-                  ><a href="#table-style">Table Style</a>
+                  ><a href="../admin/index.html#table-style">Table Style</a>
                 </li>
 
                 <li>
                   <i class="fa fa-angle-right"></i
-                  ><a href="#form-element">Form Elements</a>
+                  ><a href="../admin/index.html#form-element">Form Elements</a>
                 </li>
 
                 <li>
@@ -993,20 +1029,44 @@
 
                 <li>
                   <i class="fa fa-angle-right"></i
-                  ><a href="#flex-box">Flex Box Style</a>
+                  ><a href="../admin/index.html#flex-box">Flex Box Style</a>
+                </li>
+
+                <li>
+                  <i class="fa fa-angle-right"></i
+                  ><a href="../admin/index.html#alert">Alert Style</a>
                 </li>
               </ul>
 
-              <h2 class="mHead">Settings</h2>
+              <h2 class="mHead">Setting</h2>
+              <ul class="nav-link mb40">
+                <li>
+                  <i class="fa fa-user"></i
+                  ><a href="../setting/profile.html">Profile</a>
+                </li>
+                <li>
+                  <i class="fa fa-lock"></i
+                  ><a href="../setting/password.html">Password</a>
+                </li>
+                <li>
+                  <i class="fa fa-cog"></i
+                  ><a href="../setting/index.html">Setting</a>
+                </li>
+              </ul>
+
+              <h2 class="mHead">Manage</h2>
               <ul class="nav-link">
                 <li>
-                  <i class="fa fa-user"></i><a href="admin-01.html">Profile</a>
+                  <i class="fa fa-user"></i
+                  ><a href="../admin/user.html">User</a>
                 </li>
                 <li>
-                  <i class="fa fa-lock"></i><a href="admin-01.html">Password</a>
+                  <i class="fa fa-user-shield"></i
+                  ><a href="../admin/roles.html">Roles</a>
                 </li>
                 <li>
-                  <i class="fa fa-cog"></i><a href="admin-01.html">Setting</a>
+                  <i class="fa fa-envelope"></i
+                  ><a href="../admin/contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -1022,8 +1082,9 @@
       </footer>
     </div>
     <!-- / id layout -->
-    <script src="vendor/jQuery/jquery.min.js"></script>
-    <script src="js/function.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="../vendor/jQuery/jquery.min.js"></script>
+    <script src="../vendor/sweetalert2/sweetalert2.all.min.js"></script>
+    <script src="../js/function.js"></script>
+    <script src="../js/custom.js"></script>
   </body>
 </html>

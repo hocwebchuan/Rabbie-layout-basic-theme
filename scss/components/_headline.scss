@@ -2,31 +2,35 @@
 // Headline style
 // -----------------------------------------------------------------------------
 h2 {
-    font-size: $fontsize-l;
-    line-height: 1.2;
-    margin-bottom: 50px;
-    position: relative;
-    text-transform: uppercase;
-    &:after {
-        content: "";
-        @include position(bl,-20px,0);
-        border-radius: 4px;
-        width: 70px;
-        height: 3px;
-        background-color: $bg-color-blue;
-    }
-    @include breakpoint(480) {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+  font-size: $fontsize-l;
+  line-height: 1.2;
+  margin-bottom: 50px;
+  position: relative;
+  text-transform: uppercase;
+  &:after {
+    content: "";
+    @include position(bl, -20px, 0);
+    border-radius: 4px;
+    width: 70px;
+    height: 3px;
+    background-color: $bg-color-blue;
+  }
+  @include breakpoint(480) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  &.swal2-title:after {
+    height: 0;
+    background: none;
+  }
 }
 h3 {
-    font-size: $fontsize-b;
-    line-height: 1.4;
-    margin-bottom: 15px;
+  font-size: $fontsize-b;
+  line-height: 1.4;
+  margin-bottom: 15px;
 }
 h4 {
-    font-size: $fontsize-m;
-    line-height: 1.5;
-    margin-bottom: 10px;
+  font-size: $fontsize-m;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }

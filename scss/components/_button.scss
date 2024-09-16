@@ -92,3 +92,10 @@ a.btn-mx {
   text-align: center;
   width: 80px;
 }
+.hover-o {
+  opacity: 1;
+  transition: opacity 0.5s;
+  &:hover {
+    opacity: 0.7;
+  }
+}

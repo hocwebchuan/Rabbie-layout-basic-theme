@@ -26,9 +26,12 @@
       li {
         button {
           color: #333;
+          &.icon {
+            color: #fff;
+          }
           &:hover,
           &.active {
-            background-color: $blue;
+            background-color: $blue !important;
             color: #fff !important;
           }
         }
@@ -51,7 +54,30 @@
         }
       }
       td {
-        padding: 10px 15px;
+        padding: 15px;
+        .label {
+          width: 110px;
+        }
+        .tbl-inner {
+          th,
+          td {
+            background: none !important;
+            padding: 5px 0;
+            vertical-align: top;
+          }
+          td {
+            padding-left: 10px;
+            .inline-list {
+              margin-top: -2px;
+              input[type="checkbox"] {
+                margin-right: 3px;
+              }
+            }
+          }
+        }
+        .fas {
+          font-size: 18px;
+        }
       }
       tr:nth-child(odd) td {
         background-color: #f8f8f8;
@@ -104,5 +130,8 @@
   }
   .wp8 {
     width: 8%;
+  }
+  .wp30 {
+    width: 30%;
   }
 }

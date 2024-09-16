@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rabbie Theme</title>
+    <meta
+      name="viewport"
+      content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0" />
+    <link
+      href="../vendor/Font-Awesome-master/css/all.min.css"
+      rel="stylesheet"
+      media="all" />
+    <link
+      href="../vendor/sweetalert2/sweetalert2.min.css"
+      rel="stylesheet"
+      media="all" />
+    <link href="../css/style.css" rel="stylesheet" media="all" />
+  </head>
+  <body id="admin">
+    <div id="layout">
+      <header>
+        <h1>
+          <a href="https://rabbie-theme.hocwebchuan.com/"
+            ><span>R</span>abbie Theme</a
+          >
+        </h1>
+        <nav id="global-nav">
+          <div class="menu">
+            MENU
+            <span class="bdr-t"></span>
+          </div>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog-list.html">Blog</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="../admin/index.html" class="active">Admin</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="admin-content">
+          <section id="table-style" class="mb40">
+            <h2>Contact</h2>
+            <ul class="btn-filter tags-list">
+              <li><button class="btn bdr30 bg-graye active">All</button></li>
+              <li>
+                <button class="btn bdr30 bg-graye">Business</button>
+              </li>
+              <li><button class="btn bdr30 bg-graye">Feedback</button></li>
+              <li><button class="btn bdr30 bg-graye">Order</button></li>
+              <li><button class="btn bdr30 bg-graye">Recruitment</button></li>
+              <li><button class="btn bdr30 bg-graye">Others</button></li>
+            </ul>
+            <table class="tbl-admin">
+              <tr>
+                <th class="w60">ID</th>
+                <th class="wp15">Label</th>
+                <th>Subject</th>
+                <th class="wp15">Name</th>
+                <th class="w200">Email</th>
+                <th class="w200">Date</th>
+                <th class="w80 align-c">
+                  <i class="fas fa-cog"></i>
+                </th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td><span class="label bg-light-purple">Business</span></td>
+                <td>Aenean egestas sapien nulla</td>
+                <td>Sagittis</td>
+                <td>sagittis@gmail.com</td>
+                <td>01/02/2003</td>
+                <td class="align-c">
+                  <a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td><span class="label bg-light-orange">Feedback</span></td>
+                <td>
+                  In sagittis odio scelerisque at. Donec sit amet placerat purus
+                </td>
+                <td>Aenean odi</td>
+                <td>aenean@gmail.com</td>
+                <td>01/02/2003</td>
+                <td class="align-c">
+                  <a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td><span class="label bg-light-pink">Order</span></td>
+                <td>Scelerisque at. Donec sit</td>
+                <td>Nulla</td>
+                <td>nulla@gmail.com</td>
+                <td>01/02/2003</td>
+                <td class="align-c">
+                  <a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>4</td>
+                <td><span class="label bg-light-blue">Recruitment</span></td>
+                <td>Donec sit amet placerat purus</td>
+                <td>Sagittis odi</td>
+                <td>sagittis@gmail.com</td>
+                <td>01/02/2003</td>
+                <td class="align-c">
+                  <a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>5</td>
+                <td><span class="label bg-light-green">Others</span></td>
+                <td>Rutrum purus. Donec</td>
+                <td>Donec</td>
+                <td>donec@gmail.com</td>
+                <td>01/02/2003</td>
+                <td class="align-c">
+                  <a href="#" class="hover-o"
+                    ><i class="fas fa-times red"></i
+                  ></a>
+                </td>
+              </tr>
+            </table>
+            <nav class="pagination align-c mb40">
+              <ul>
+                <li>
+                  <a href="index.html">
+                    <span><i class="fa fa-angle-left"></i></span>
+                  </a>
+                </li>
+                <li><a href="index.html">1</a></li>
+                <li class="active"><a href="index.html">2</a></li>
+                <li><a href="index.html">3</a></li>
+                <li><a href="index.html">4</a></li>
+                <li><a href="index.html">5</a></li>
+                <li>
+                  <a href="index.html">
+                    <span><i class="fa fa-angle-right"></i></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <!-- / #table style -->
+        </section>
+        <!-- / id content -->
+
+        <aside id="admin-sidebar">
+          <section class="mb40">
+            <div class="inner manageList">
+              <h2 class="mHead">Elements</h2>
+              <ul class="nav-link mb40">
+                <li>
+                  <i class="fa fa-angle-right"></i
+                  ><a href="../admin/index.html#table-style">Table Style</a>
+                </li>
+
+                <li>
+                  <i class="fa fa-angle-right"></i
+                  ><a href="../admin/index.html#form-element">Form Elements</a>
+                </li>
+
+                <li>
+                  <i class="fa fa-angle-right"></i><a href="#box">Box Style</a>
+                </li>
+
+                <li>
+                  <i class="fa fa-angle-right"></i
+                  ><a href="../admin/index.html#flex-box">Flex Box Style</a>
+                </li>
+
+                <li>
+                  <i class="fa fa-angle-right"></i
+                  ><a href="../admin/index.html#alert">Alert Style</a>
+                </li>
+              </ul>
+
+              <h2 class="mHead">Setting</h2>
+              <ul class="nav-link mb40">
+                <li>
+                  <i class="fa fa-user"></i
+                  ><a href="../setting/profile.html">Profile</a>
+                </li>
+                <li>
+                  <i class="fa fa-lock"></i
+                  ><a href="../setting/password.html">Password</a>
+                </li>
+                <li>
+                  <i class="fa fa-cog"></i
+                  ><a href="../setting/index.html">Setting</a>
+                </li>
+              </ul>
+
+              <h2 class="mHead">Manage</h2>
+              <ul class="nav-link">
+                <li>
+                  <i class="fa fa-user"></i
+                  ><a href="../admin/user.html">User</a>
+                </li>
+                <li>
+                  <i class="fa fa-user-shield"></i
+                  ><a href="../admin/roles.html">Roles</a>
+                </li>
+                <li class="active">
+                  <i class="fa fa-envelope"></i
+                  ><a href="../admin/contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </aside>
+        <!-- / aside -->
+      </main>
+      <!-- / main -->
+
+      <footer>
+        &copy;2019 <a href="https://hocwebchuan.com">Hoc Web Chuan</a> All
+        Rights Reserved.
+      </footer>
+    </div>
+    <!-- / id layout -->
+    <script src="../vendor/jQuery/jquery.min.js"></script>
+    <script src="../vendor/sweetalert2/sweetalert2.all.min.js"></script>
+    <script src="../js/function.js"></script>
+    <script src="../js/custom.js"></script>
+  </body>
+</html>

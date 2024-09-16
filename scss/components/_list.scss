@@ -3,124 +3,135 @@
 // -----------------------------------------------------------------------------
 // Item List
 .item-list {
-    list-style-type: disc;
+  list-style-type: disc;
+  padding-left: 20px;
+  ul {
+    list-style-type: circle;
     padding-left: 20px;
-    ul {
-        list-style-type: circle;
-        padding-left: 20px;
-    }
-    @include breakpoint(768) {
-        margin-bottom: 20px;
-    }
+  }
+  @include breakpoint(768) {
+    margin-bottom: 20px;
+  }
 }
 
 .check-list {
-    li {
-        padding-left: 12px;
-        text-indent: -12px;
-        i {
-            margin-right: 5px;
-        }
+  li {
+    padding-left: 12px;
+    text-indent: -12px;
+    i {
+      margin-right: 5px;
     }
-    @include breakpoint(768) {
-        margin-bottom: 20px;
-    }
+  }
+  @include breakpoint(768) {
+    margin-bottom: 20px;
+  }
 }
 
 // Link List
 .link-list {
+  li {
+    margin-bottom: 5px;
+  }
+  &.bdr {
     li {
-        margin-bottom: 5px;
+      border-bottom: $bdr-dash-gray;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      &:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
     }
-    &.bdr {
-        li {
-            border-bottom: $bdr-dash-gray;
-            margin-bottom: 8px;
-            padding-bottom: 8px;
-            &:last-child {
-                border-bottom: none;
-                margin-bottom: 0;
-                padding-bottom: 0;
-            }
-        }
-    }
+  }
 }
 
 // Box List
 .box-list {
-    margin-top: 10px;
-    width: 100%;
-    li {
-        background-color: $light-yellow-xl;
-        font-size: $fontsize-m;
-        float: left;
-        height: 150px;
-        line-height: 150px;
-        text-align: center;
-        margin: {
-            right: 10px;
-            bottom: 10px;
-        }
-        &:last-child {
-            margin-bottom: 0;
-            margin-right: 0;
-        }
-        width: calc(25% - 10px);
-        @include breakpoint(768) {
-            width: calc(50% - 5px);
-            &:nth-child(2n) {
-                margin-bottom: 10px;
-                margin-right: 0;
-            }
-        }
+  margin-top: 10px;
+  width: 100%;
+  li {
+    background-color: $light-yellow-xl;
+    font-size: $fontsize-m;
+    float: left;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    margin: {
+      right: 10px;
+      bottom: 10px;
     }
-    @include breakpoint(480) {
-        padding: 0 20px;
+    &:last-child {
+      margin-bottom: 0;
+      margin-right: 0;
     }
+    width: calc(25% - 10px);
+    @include breakpoint(768) {
+      width: calc(50% - 5px);
+      &:nth-child(2n) {
+        margin-bottom: 10px;
+        margin-right: 0;
+      }
+    }
+  }
+  @include breakpoint(480) {
+    padding: 0 20px;
+  }
 }
 
 // Block List
 .block-list {
-    @extend .row;
-    li {
-        margin-bottom: 30px;
-        &:last-child {
-            margin-bottom: 0;
-        }
+  @extend .row;
+  li {
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
     }
+  }
+}
+
+// Inline List
+.inline-list {
+  li {
+    display: inline;
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }
 
 // Pagination
 .pagination {
-    width: 100%;
-    ul {
-        li {
-            display: inline-block;
-            margin-left: 3px;
-            & > a,
-            & > span {
-                cursor: pointer;
-                padding: 7px 12px;
-                transition: $transition-all;
-            }
-            & > a:hover,
-            &.active > a,
-            &.active > a:hover,
-            &.active > span,
-            &.active > span:hover {
-                z-index: 3;
-                color: $white;
-                background-color: $light-blue;
-                border-color: $light-blue;
-            }
-        }
+  width: 100%;
+  ul {
+    li {
+      display: inline-block;
+      margin-left: 3px;
+      & > a,
+      & > span {
+        cursor: pointer;
+        padding: 7px 12px;
+        transition: $transition-all;
+      }
+      & > a:hover,
+      &.active > a,
+      &.active > a:hover,
+      &.active > span,
+      &.active > span:hover {
+        z-index: 3;
+        color: $white;
+        background-color: $light-blue;
+        border-color: $light-blue;
+      }
     }
+  }
 }
 
 // Tags list
 .tags-list {
-    li {
-        display: inline-block;
-        margin-bottom: 5px;
-    }
+  li {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
 }
