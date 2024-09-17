@@ -15,7 +15,7 @@
   main {
     margin-top: 0;
     max-width: 100%;
-    padding: 130px 0 0 310px;
+    padding: 50px 60px 0 360px;
   }
   #admin-content {
     width: calc(100% - 30px);
@@ -46,7 +46,7 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
       overflow: hidden;
       th {
-        background-color: #efefef;
+        background-color: #f8f7fa;
         font-weight: bold;
         padding: 15px 15px;
         em {
@@ -95,28 +95,61 @@
   #admin-sidebar {
     position: fixed;
     left: 0;
-    top: 80px;
+    top: 0;
     width: 280px;
     min-width: 280px;
     height: 100%;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-    padding: 50px 30px;
+    padding: 100px 10px 50px;
     z-index: 1;
+    h1 {
+      background: linear-gradient(
+          70deg,
+          lighten(#8a74e8, 10%) 30%,
+          rgba(0, 0, 0, 0) 30%
+        ),
+        linear-gradient(
+          30deg,
+          lighten(#fc8dff, 20%) 50%,
+          lighten(#e88074, 20%) 50%
+        );
+      font-size: 34px;
+      font-weight: 400;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 20px;
+      text-shadow: #333 0 1px 2px;
+      width: 100%;
+      a {
+        color: #fff;
+        &:hover {
+          color: #fff;
+        }
+      }
+      span {
+        display: inline-block;
+        font-size: 50px;
+      }
+    }
     .mHead {
+      font-size: 20px;
       margin-bottom: 30px;
+      padding-left: 20px;
       &::after {
         background: none;
       }
     }
     .nav-link {
       li {
-        margin-bottom: 20px;
         i {
-          margin-right: 5px;
+          margin-right: 10px;
         }
         a {
           color: #333;
+          display: block;
+          padding: 10px 20px;
           &:hover {
             text-decoration: underline;
           }

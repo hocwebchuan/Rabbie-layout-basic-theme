@@ -1,0 +1,88 @@
+// -----------------------------------------------------------------------------
+// Home page style.
+// -----------------------------------------------------------------------------
+
+/* Base */
+@import "../base/variables", "../base/mixins";
+$color-purple: #675ed1;
+#admin.leftbar {
+  main {
+    h2:after {
+      background-color: $color-purple !important;
+    }
+    #admin-content {
+      .btn-filter {
+        li {
+          button {
+            &:hover,
+            &.active {
+              background-color: $color-purple !important;
+            }
+          }
+        }
+      }
+    }
+    .pagination {
+      ul {
+        li {
+          a {
+            color: $color-purple !important;
+            &:hover,
+            &.active {
+              color: #fff !important;
+              background-color: $color-purple !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #admin-sidebar {
+    background-color: #2f3349 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    color: #cfcce4;
+    .mHead {
+      color: #fff;
+      &:after {
+        background: none !important;
+      }
+    }
+    .manageList {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .nav-link {
+      li {
+        a {
+          border-radius: 5px;
+          color: #cfcce4 !important;
+          transition: background 0.2s;
+          &:hover {
+            background-color: #3d4056 !important;
+            color: #fff !important;
+            text-decoration: none !important;
+          }
+        }
+        &.active,
+        &.active a {
+          border-radius: 5px;
+          background-color: $color-purple !important;
+          background-image: linear-gradient(
+            93deg,
+            #3ca4e0,
+            #4e5fd7 53%,
+            #4e62d8
+          );
+          color: #fff !important;
+        }
+      }
+    }
+  }
+  .purple-d {
+    color: $color-purple !important;
+  }
+  .bg-purple {
+    background-color: $color-purple !important;
+    background-image: linear-gradient(93deg, #3ca4e0, #4e5fd7 53%, #4e62d8);
+  }
+}

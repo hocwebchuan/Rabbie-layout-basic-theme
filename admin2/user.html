@@ -16,7 +16,7 @@
       media="all" />
     <link href="../css/style.css" rel="stylesheet" media="all" />
   </head>
-  <body id="admin">
+  <body id="admin" class="leftbar">
     <div id="layout">
       <main>
         <section id="admin-content">
@@ -42,9 +42,10 @@
                 <th class="wp5">Avatar</th>
                 <th class="wp15">Full name</th>
                 <th>Email</th>
-                <th class="w120 align-c">Role</th>
+                <th class="w130 align-c">Role</th>
                 <th class="w200 align-c">Email verified</th>
                 <th class="w200 align-c">Created Date</th>
+                <th class="w120 align-c">Status</th>
                 <th class="w120 align-c">
                   <i class="fas fa-cog"></i>
                 </th>
@@ -55,10 +56,13 @@
                 <td>Duonghc</td>
                 <td>duonghc@gmail.com</td>
                 <td align-c>
-                  <span class="label bg-light-purple">ADMINISTRATOR</span>
+                  <i class="fa fa-crown orange mr10"></i>ADMINISTRATOR
                 </td>
                 <td class="align-c">01/02/2003</td>
                 <td class="align-c">01/02/2003</td>
+                <td align-c>
+                  <span class="label bg-light-blue">Active</span>
+                </td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
                     ><i class="fas fa-edit blue"></i></a
@@ -73,11 +77,12 @@
                 <td><img src="../images/user02.png" alt="" /></td>
                 <td>Nguyễn Văn A</td>
                 <td>nguyenvana@gmail.com</td>
+                <td align-c><i class="fa fa-star purple mr10"></i>Moderator</td>
+                <td class="align-c">01/02/2003</td>
+                <td class="align-c">01/02/2003</td>
                 <td align-c>
-                  <span class="label bg-light-orange">Moderator</span>
+                  <span class="label bg-graye">Inactive</span>
                 </td>
-                <td class="align-c">01/02/2003</td>
-                <td class="align-c">01/02/2003</td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
                     ><i class="fas fa-edit blue"></i></a
@@ -93,10 +98,13 @@
                 <td>Nguyễn Thị B</td>
                 <td>nguyenthib@gmail.com</td>
                 <td align-c>
-                  <span class="label bg-light-blue">Writer</span>
+                  <i class="fa fa-pen-to-square blue mr10"></i>Writer
                 </td>
                 <td class="align-c">01/02/2003</td>
                 <td class="align-c">01/02/2003</td>
+                <td align-c>
+                  <span class="label bg-light-blue">Active</span>
+                </td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
                     ><i class="fas fa-edit blue"></i></a
@@ -111,11 +119,12 @@
                 <td><img src="../images/user04.png" alt="" /></td>
                 <td>Trần Minh A</td>
                 <td>tranminha@gmail.com</td>
+                <td align-c><i class="fa fa-user-check green mr10"></i>Member</td>
+                <td class="align-c">01/02/2003</td>
+                <td class="align-c">01/02/2003</td>
                 <td align-c>
-                  <span class="label bg-light-green">Member</span>
+                  <span class="label bg-light-orange">Pending</span>
                 </td>
-                <td class="align-c">01/02/2003</td>
-                <td class="align-c">01/02/2003</td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
                     ><i class="fas fa-edit blue"></i></a
@@ -130,11 +139,74 @@
                 <td><img src="../images/user05.png" alt="" /></td>
                 <td>Trần Minh B</td>
                 <td>tranminha@gmail.com</td>
+                <td align-c><i class="fa fa-user gray mr10"></i>Guess</td>
+                <td class="align-c">01/02/2003</td>
+                <td class="align-c">01/02/2003</td>
                 <td align-c>
-                  <span class="label bg-grayd">Guess</span>
+                  <span class="label bg-light-blue">Active</span>
+                </td>
+                <td class="align-c">
+                  <a href="#" class="hover-o mr20"
+                    ><i class="fas fa-edit blue"></i></a
+                  ><a href="#" class="hover-o"
+                    ><i class="fas fa-trash red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr></tr>
+                <td><input type="checkbox" name="checkbox03" /></td>
+                <td><img src="../images/user02.png" alt="" /></td>
+                <td>Nguyễn Văn A</td>
+                <td>nguyenvana@gmail.com</td>
+                <td align-c><i class="fa fa-user-check green mr10"></i>Member</td>
+                <td class="align-c">01/02/2003</td>
+                <td class="align-c">01/02/2003</td>
+                <td align-c>
+                  <span class="label bg-graye">Inactive</span>
+                </td>
+                <td class="align-c">
+                  <a href="#" class="hover-o mr20"
+                    ><i class="fas fa-edit blue"></i></a
+                  ><a href="#" class="hover-o"
+                    ><i class="fas fa-trash red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td><input type="checkbox" name="checkbox04" /></td>
+                <td><img src="../images/user03.png" alt="" /></td>
+                <td>Nguyễn Thị B</td>
+                <td>nguyenthib@gmail.com</td>
+                <td align-c>
+                  <i class="fa fa-pen-to-square blue mr10"></i>Writer
                 </td>
                 <td class="align-c">01/02/2003</td>
                 <td class="align-c">01/02/2003</td>
+                <td align-c>
+                  <span class="label bg-light-blue">Active</span>
+                </td>
+                <td class="align-c">
+                  <a href="#" class="hover-o mr20"
+                    ><i class="fas fa-edit blue"></i></a
+                  ><a href="#" class="hover-o"
+                    ><i class="fas fa-trash red"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td><input type="checkbox" name="checkbox05" /></td>
+                <td><img src="../images/user04.png" alt="" /></td>
+                <td>Trần Minh A</td>
+                <td>tranminha@gmail.com</td>
+                <td align-c><i class="fa fa-user-check green mr10"></i>Member</td>
+                <td class="align-c">01/02/2003</td>
+                <td class="align-c">01/02/2003</td>
+                <td align-c>
+                  <span class="label bg-light-orange">Pending</span>
+                </td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
                     ><i class="fas fa-edit blue"></i></a
@@ -152,7 +224,7 @@
                   </a>
                 </li>
                 <li><a href="index.html">1</a></li>
-                <li class="active"><a href="index.html">2</a></li>
+                <li><a href="index.html" class="active">2</a></li>
                 <li><a href="index.html">3</a></li>
                 <li><a href="index.html">4</a></li>
                 <li><a href="index.html">5</a></li>
@@ -176,7 +248,6 @@
           </h1>
           <section class="mb40">
             <div class="inner manageList">
-              <h2 class="mHead">Elements</h2>
               <h2 class="mHead">Pages</h2>
               <ul class="nav-link mb40">
                 <li>
@@ -194,17 +265,17 @@
               <h2 class="mHead">Setting</h2>
               <ul class="nav-link mb40">
                 <li>
-                  <a href="../setting/profile.html"
+                  <a href="../setting2/profile.html"
                     ><i class="fa fa-user"></i>Profile</a
                   >
                 </li>
                 <li>
-                  <a href="../setting/password.html"
+                  <a href="../setting2/password.html"
                     ><i class="fa fa-lock"></i>Password</a
                   >
                 </li>
                 <li>
-                  <a href="../setting/index.html"
+                  <a href="../setting2/index.html"
                     ><i class="fa fa-cog"></i>Setting</a
                   >
                 </li>
@@ -213,17 +284,17 @@
               <h2 class="mHead">Manage</h2>
               <ul class="nav-link">
                 <li class="active">
-                  <a href="../admin/user.html"
+                  <a href="../admin2/user.html"
                     ><i class="fa fa-user"></i>User</a
                   >
                 </li>
                 <li>
-                  <a href="../admin/roles.html"
+                  <a href="../admin2/roles.html"
                     ><i class="fa fa-user-shield"></i>Roles</a
                   >
                 </li>
                 <li>
-                  <a href="../admin/contact.html"
+                  <a href="../admin2/contact.html"
                     ><i class="fa fa-envelope"></i>Contact</a
                   >
                 </li>

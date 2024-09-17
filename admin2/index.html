@@ -16,7 +16,7 @@
       media="all" />
     <link href="../css/style.css" rel="stylesheet" media="all" />
   </head>
-  <body id="admin">
+  <body id="admin" class="leftbar">
     <div id="layout">
       <main>
         <section id="admin-content">
@@ -55,7 +55,7 @@
                 <td><span class="label bg-light-green">In progress</span></td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
-                    ><i class="fas fa-edit blue"></i></a
+                    ><i class="fas fa-edit purple-d"></i></a
                   ><a href="#" class="hover-o"
                     ><i class="fas fa-trash red"></i
                   ></a>
@@ -71,7 +71,7 @@
                 <td><span class="label bg-light-red">Expired</span></td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
-                    ><i class="fas fa-edit blue"></i></a
+                    ><i class="fas fa-edit purple-d"></i></a
                   ><a href="#" class="hover-o"
                     ><i class="fas fa-trash red"></i
                   ></a>
@@ -89,7 +89,7 @@
                 <td><span class="label bg-light-gray6">Closed</span></td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
-                    ><i class="fas fa-edit blue"></i></a
+                    ><i class="fas fa-edit purple-d"></i></a
                   ><a href="#" class="hover-o"
                     ><i class="fas fa-trash red"></i
                   ></a>
@@ -105,7 +105,7 @@
                 <td><span class="label bg-light-green">In progress</span></td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
-                    ><i class="fas fa-edit blue"></i></a
+                    ><i class="fas fa-edit purple-d"></i></a
                   ><a href="#" class="hover-o"
                     ><i class="fas fa-trash red"></i
                   ></a>
@@ -123,7 +123,7 @@
                 <td><span class="label bg-light-gray6">Closed</span></td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
-                    ><i class="fas fa-edit blue"></i></a
+                    ><i class="fas fa-edit purple-d"></i></a
                   ><a href="#" class="hover-o"
                     ><i class="fas fa-trash red"></i
                   ></a>
@@ -139,7 +139,7 @@
                 <td><span class="label bg-light-blue">Done</span></td>
                 <td class="align-c">
                   <a href="#" class="hover-o mr20"
-                    ><i class="fas fa-edit blue"></i></a
+                    ><i class="fas fa-edit purple-d"></i></a
                   ><a href="#" class="hover-o"
                     ><i class="fas fa-trash red"></i
                   ></a>
@@ -154,7 +154,7 @@
                   </a>
                 </li>
                 <li><a href="index.html">1</a></li>
-                <li class="active"><a href="index.html">2</a></li>
+                <li><a href="index.html" class="active">2</a></li>
                 <li><a href="index.html">3</a></li>
                 <li><a href="index.html">4</a></li>
                 <li><a href="index.html">5</a></li>
@@ -533,7 +533,7 @@
                       placeholder="Your textarea placeholder"></textarea>
                   </div>
                   <div class="col-1 align-c mb20">
-                    <button class="btn-lg bg-blue w400">Button</button>
+                    <button class="btn-lg bg-purple w400">Button</button>
                   </div>
                 </div>
               </section>
@@ -900,7 +900,7 @@
               </tr>
             </table>
             <div class="col-1 align-c mb20">
-              <button class="btn-lg bg-blue w400">Button</button>
+              <button class="btn-lg bg-purple w400">Button</button>
             </div>
           </section>
 
@@ -915,7 +915,7 @@
               elementum auctor.
             </div>
 
-            <div class="box bdr-light-blue">
+            <div class="box bdr-light-white">
               Donec eget enim et lacus ultricies mollis. Aenean egestas sapien
               nulla, in sagittis odio scelerisque at. Donec sit amet placerat
               purus, ac rutrum purus. Vivamus aliquet risus ut lectus dapibus,
@@ -974,13 +974,13 @@
 
           <section id="alert">
             <h2>Alert style</h2>
-            <button class="btn bdr30 bg-blue" onclick="sweetalertConfirm()">
+            <button class="btn bdr30 bg-purple" onclick="sweetalertConfirm()">
               Confirm
             </button>
-            <button class="btn bdr30 bg-blue" onclick="sweetalertSuccess()">
+            <button class="btn bdr30 bg-purple" onclick="sweetalertSuccess()">
               Success
             </button>
-            <button class="btn bdr30 bg-blue" onclick="sweetalertCountLess()">
+            <button class="btn bdr30 bg-purple" onclick="sweetalertCountLess()">
               CountLess
             </button>
           </section>
@@ -998,12 +998,12 @@
             <div class="inner manageList">
               <h2 class="mHead">Pages</h2>
               <ul class="nav-link mb40">
-                <li class="active">
+                <li>
                   <a href="../admin/index.html"
                     ><i class="fa fa-angle-right"></i>Admin 01</a
                   >
                 </li>
-                <li>
+                <li class="active">
                   <a href="../admin2/index.html"
                     ><i class="fa fa-angle-right"></i>Admin 02</a
                   >
@@ -1013,17 +1013,17 @@
               <h2 class="mHead">Setting</h2>
               <ul class="nav-link mb40">
                 <li>
-                  <a href="../setting/profile.html"
+                  <a href="../setting2/profile.html"
                     ><i class="fa fa-user"></i>Profile</a
                   >
                 </li>
                 <li>
-                  <a href="../setting/password.html"
+                  <a href="../setting2/password.html"
                     ><i class="fa fa-lock"></i>Password</a
                   >
                 </li>
                 <li>
-                  <a href="../setting/index.html"
+                  <a href="../setting2/index.html"
                     ><i class="fa fa-cog"></i>Setting</a
                   >
                 </li>
@@ -1032,17 +1032,17 @@
               <h2 class="mHead">Manage</h2>
               <ul class="nav-link">
                 <li>
-                  <a href="../admin/user.html"
+                  <a href="../admin2/user.html"
                     ><i class="fa fa-user"></i>User</a
                   >
                 </li>
                 <li>
-                  <a href="../admin/roles.html"
+                  <a href="../admin2/roles.html"
                     ><i class="fa fa-user-shield"></i>Roles</a
                   >
                 </li>
                 <li>
-                  <a href="../admin/contact.html"
+                  <a href="../admin2/contact.html"
                     ><i class="fa fa-envelope"></i>Contact</a
                   >
                 </li>
