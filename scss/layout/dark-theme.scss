@@ -1,0 +1,76 @@
+// -----------------------------------------------------------------------------
+// Dark blue style.
+// -----------------------------------------------------------------------------
+
+/* Base */
+@import "../base/variables", "../base/mixins";
+$color-gray: #1f1f1f;
+$bdr-navi: #69696b;
+.dark-theme {
+  color: #fff;
+  a {
+    color: #7399f8;
+    &:hover {
+      color: #9db8ff;
+    }
+    &.btn-mx,
+    &.btn-lg,
+    &.btn-icon {
+      color: #fff;
+    }
+  }
+  #layout {
+    background-color: $color-gray;
+    h1 a,
+    h2 {
+      color: #fff;
+    }
+    .block,
+    .box,
+    .flex-box .box-item {
+      background-color: #383838;
+    }
+    .bdr-dark-navi {
+      border-color: #383838 !important;
+    }
+    hr.opacity-divide {
+      background-image: linear-gradient(
+        to right,
+        transparent,
+        rgba(255, 255, 255, 0.1),
+        transparent
+      );
+    }
+    .table-style {
+      table {
+        th {
+          background: none;
+          border-bottom: 1px solid $bdr-navi;
+          color: #c2b1ff;
+          font-weight: 999;
+        }
+        th,
+        td {
+          border-color: $bdr-navi;
+        }
+      }
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+      background-color: #333333;
+      border-color: #333333;
+      color: #fff;
+    }
+    ::placeholder {
+      color: #ccc;
+    }
+    .box-list {
+      li {
+        color: $color-gray;
+      }
+    }
+  }
+}

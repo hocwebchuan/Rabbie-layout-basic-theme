@@ -8,13 +8,19 @@ Demo at [Rabbie Theme](https://rabbie-theme.hocwebchuan.com)
 
 ## Table of Contents
 
+- [Vendor#vendor]
+  - [jQuery](#jquery)
+  - [FontAwesome](#fontawesome)
+  - [sweetAlert](#sweetalert)
+  - [OwlCarousel](#owlcarousel)
+  - [Animate.css](#animate.css)
+  - [TinyMCE](#tiny)
 - [Available Scripts](#available-scripts)
+- [Pages](#pages)
 - [Using contents]
   - [Grid system](#grid-system)
   - [Color system](#color-system)
-  - [Fontawsome](#fontawsome)
   - [Button style](#button-style)
-  - [Label style](#label-style)
   - [Box style](#box-style)
   - [Paragraph style](#paragraph-style)
   - [Item list style](#item-list-style)
@@ -22,10 +28,37 @@ Demo at [Rabbie Theme](https://rabbie-theme.hocwebchuan.com)
   - [Pagination style](#pagination-style)
   - [Form element style](#form-element-style)
   - [Table style](#table-style)
-- [Pages](#pages)
 - [Something Missing?](#something-missing)
 
-## SCSS Available
+## Vendor
+
+### jQuery
+
+[jQuery v3.4.1](https://jquery.com/)
+
+### FrontAwesome
+
+[Font Awesome 6.6.0](https://fontawesome.com/)
+
+### SweetAlert
+
+[sweetalert2](https://sweetalert2.github.io/)
+
+### OwlCarousel
+
+[OwlCarousel2-2.3.4](https://owlcarousel2.github.io/OwlCarousel2/)
+
+### Animate.css
+
+[animate.css4.1.1](https://animate.style/)
+
+### Tiny
+
+[Tiny MCE](https://www.tiny.cloud/)
+
+## Available Scripts
+
+### SCSS Available
 
 In the project directory, follow these script to setup SASS to auto compile the CSS files:
 
@@ -69,6 +102,28 @@ If you don't want to use SCSS files, use these files:
 ```
 
 Simple and familiar with everyone!
+
+## Pages
+
+Rabbie theme provide some necessary pages for normal website, check it out:
+
+- [Top page](https://rabbie-theme.hocwebchuan.com/)<br>
+- [Dark blue theme](https://rabbie-theme.hocwebchuan.com/dark-blue-theme.html)<br>
+- [Dark theme](https://rabbie-theme.hocwebchuan.com/dark-theme.html)<br>
+- [Blog list](https://rabbie-theme.hocwebchuan.com/blog-list.php)<br>
+- [Blog content](https://rabbie-theme.hocwebchuan.com/blog-content.php)<br>
+- [Contact](https://rabbie-theme.hocwebchuan.com/contact.php)<br>
+- [Admin style](https://rabbie-theme.hocwebchuan.com/admin/index.php)<br>
+- [Admin2 style](https://rabbie-theme.hocwebchuan.com/admin2/index.php)<br>
+- [Admin/User](https://rabbie-theme.hocwebchuan.com/admin/user.php)<br>
+- [Admin/Roles](https://rabbie-theme.hocwebchuan.com/admin/roles.php)<br>
+- [Admin/Contact](https://rabbie-theme.hocwebchuan.com/admin/contact.php)<br>
+- [Setting](https://rabbie-theme.hocwebchuan.com/setting/index.php)<br>
+- [Profile](https://rabbie-theme.hocwebchuan.com/setting/profile.php)<br>
+- [Password](https://rabbie-theme.hocwebchuan.com/setting/password.php)<br>
+- [Updating...]
+
+## Using content
 
 ### Grid system
 
@@ -124,10 +179,6 @@ Responsive grid system
 - Light color (e.g. `light-red`)
 - More light color (e.g. `light-red-ml`)
 - Max light color (e.g. `light-red-xl`)
-
-### Fontawsome
-
-We have included latest version 5.11.2.
 
 ### Button style
 
@@ -261,18 +312,6 @@ We have included latest version 5.11.2.
   </tr>
 </table>
 ```
-
-## Pages
-
-Rabbie theme provide some necessary pages for normal website, check it out:
-
-- [Top page](https://rabbie-theme.hocwebchuan.com/)<br>
-- [Blog list](https://rabbie-theme.hocwebchuan.com/blog-list.php)<br>
-- [Blog content](https://rabbie-theme.hocwebchuan.com/blog-content.php)<br>
-- [Contact](https://rabbie-theme.hocwebchuan.com/contact.php)<br>
-- [Admin style](https://rabbie-theme.hocwebchuan.com/admin/index.php)<br>
-- [Setting](https://rabbie-theme.hocwebchuan.com/setting/index.php)<br>
-- [Updating...]
 
 ## Something missing?
 

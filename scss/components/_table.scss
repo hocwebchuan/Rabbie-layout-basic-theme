@@ -10,46 +10,61 @@ $t-align: top;
 $t-width: 850px;
 
 .table-style {
+  width: 100%;
+  table {
     width: 100%;
-    table {
-        width: 100%;
-        th, td {
-            padding: $t-padding-v $t-padding-h;
-            vertical-align: $t-align;
-            word-wrap: break-word;
-        }
-        td {
-            border-bottom: $t-border;
-        }
-        th {
-            background-color: $light-blue-xl;
-            color: $t-th-color;
-        }
-        tr:first-child {
-            td, th {
-                border-top: $t-border;
-            }
-        }
-        &.ver-style th {
-            background: none;
-            border-bottom: $t-border;
-        }
-        @include breakpoint(1024) {
-            width: $t-width;
-        };
+    th,
+    td {
+      padding: $t-padding-v $t-padding-h;
+      vertical-align: $t-align;
+      word-wrap: break-word;
+    }
+    td {
+      border-bottom: $t-border;
+    }
+    th {
+      background-color: $light-blue-xl;
+      color: $t-th-color;
+    }
+    tr:first-child {
+      td,
+      th {
+        border-top: $t-border;
+      }
+    }
+    &.ver-style th {
+      background: none;
+      border-bottom: $t-border;
     }
     @include breakpoint(1024) {
-        overflow-x: auto;
-    };
+      width: $t-width;
+    }
+    &.bdr-none {
+      th,
+      td {
+        border: none;
+      }
+      tr:first-child {
+        td,
+        th {
+          border: none;
+        }
+      }
+    }
+  }
+  @include breakpoint(1024) {
+    overflow-x: auto;
+  }
 }
 .table-style-border {
-    @extend .table-style;
-    table {
-        th, td {
-            border: $t-border;
-        }
-        &.ver-style th {
-            background-color: $light-blue-xl;
-        }
+  @extend .table-style;
+  table {
+    th,
+    td {
+      border: $t-border;
     }
+    &.ver-style th {
+      background-color: $light-blue-xl;
+    }
+  }
 }

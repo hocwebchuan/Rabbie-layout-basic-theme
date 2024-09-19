@@ -1,41 +1,41 @@
 // -----------------------------------------------------------------------------
 // Header style
 // -----------------------------------------------------------------------------
-$color1: 70deg, lighten(#8A74E8, 10%) 30%, rgba(0,0,0,0) 30%;
-$color2: 30deg, lighten(#FC8DFF, 20%) 50%, lighten(#E88074, 20%) 50%;
+$color1: 70deg, lighten(#8a74e8, 10%) 30%, rgba(0, 0, 0, 0) 30%;
+$color2: 30deg, lighten(#fc8dff, 20%) 50%, lighten(#e88074, 20%) 50%;
 header {
-    background: -webkit-linear-gradient($color1), -webkit-linear-gradient($color2);
-    background: -o-linear-gradient($color1), -o-linear-gradient($color2);
-    background: -moz-linear-gradient($color1), -moz-linear-gradient($color2);
-    background: linear-gradient($color1), linear-gradient($color2);
-    border-bottom: 1px solid lighten($black, 90%);
-    font-size: $fontsize-m;
-    height: $h;
-    line-height: $h;
-    overflow: hidden;
-    padding: 0 20px;
-    position: relative;
-    h1 {
-        color: #ae74fb;
-        font-size: $fontsize-l*1.5;
-        font-weight: 400;
-        position: absolute;
-        text-shadow: #333 0 1px 2px;
-        top: 22px;
-        transition: $transition-all;
-        &:hover {
-            top: 0;
-            text-shadow: #333 0 8px 6px;
-        }
-        a {
-            color: #fff;
-            &:hover {
-                color: #fff;
-            }
-        }
-        span {
-            display: inline-block;
-            font-size: $fontsize-l*2.5;
-        }
+  background: -webkit-linear-gradient($color1), -webkit-linear-gradient($color2);
+  background: -o-linear-gradient($color1), -o-linear-gradient($color2);
+  background: -moz-linear-gradient($color1), -moz-linear-gradient($color2);
+  background: linear-gradient($color1), linear-gradient($color2);
+  border-bottom: 1px solid lighten($black, 90%);
+  font-size: $fontsize-m;
+  height: $h;
+  line-height: $h;
+  overflow: hidden;
+  padding: 0 20px;
+  position: relative;
+  h1 {
+    color: #ae74fb;
+    font-size: $fontsize-l * 1.5;
+    font-weight: 400;
+    position: absolute;
+    text-shadow: #333 0 1px 2px;
+    top: 22px;
+    transition: $transition-all;
+    &:hover {
+      top: 0;
+      text-shadow: #333 0 8px 6px;
     }
+    a {
+      color: #fff;
+      &:hover {
+        color: #fff;
+      }
+    }
+    span {
+      display: inline-block;
+      font-size: $fontsize-l * 2.5;
+    }
+  }
 }

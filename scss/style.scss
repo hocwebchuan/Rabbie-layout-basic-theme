@@ -10,9 +10,14 @@
 
 /* Component */
 @import "components/headline", "components/box", "components/forms",
-  "components/button", "components/list", "components/table";
+  "components/button", "components/list", "components/table",
+  "components/script";
 
 /*.Page specific styles */
 @import "pages/admin", "pages/admin2";
 
+/* Fontawesome */
 @import "pages/fontawesome";
+
+/* Dark theme */
+@import "layout/dark-blue-theme", "layout/dark-theme";

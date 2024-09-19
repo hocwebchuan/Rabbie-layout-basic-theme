@@ -1,3 +1,24 @@
 /*=========================
 Your CSS custom
 ==========================*/
+.hover-bounce:hover {
+    animation: bounce infinite 1s;
+}
+.hover-flash:hover {
+    animation: flash infinite 1s;
+}
+.hover-pulse:hover {
+    animation: pulse infinite 1s;
+}
+.hover-rubberBand:hover {
+    animation: rubberBand infinite 1s;
+}
+.hover-shakeX:hover {
+    animation: shakeX infinite 1s;
+}
+.hover-shakeY:hover {
+    animation: shakeY infinite 1s;
+}
+.hover-headShake:hover {
+    animation: headShake infinite 1s;
+}

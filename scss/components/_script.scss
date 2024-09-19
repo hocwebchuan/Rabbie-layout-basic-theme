@@ -1,0 +1,111 @@
+// -----------------------------------------------------------------------------
+// Script style
+// -----------------------------------------------------------------------------
+/* Tab */
+#tab {
+  .tab {
+    border-bottom: 1px solid #ccc;
+    li {
+      display: inline-block;
+      margin-right: 5px;
+      margin-bottom: -1px;
+      a {
+        display: block;
+        width: 100px;
+        height: 30px;
+        color: inherit;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        text-align: center;
+        line-height: 30px;
+        border: 1px solid transparent;
+        transition: background 0.2s;
+        &:hover {
+          background-color: #f3f3f3;
+          border: 1px solid #ddd;
+        }
+      }
+      &.active {
+        a {
+          border-color: #ddd;
+          border-bottom: transparent;
+          background: #fff;
+        }
+      }
+    }
+  }
+  .tabContents {
+    clear: both;
+    width: 100%;
+    .tabBox {
+      display: none;
+      padding: 10px;
+      &#tab01 {
+        display: block;
+      }
+    }
+  }
+}
+
+/* Accordion */
+.accordionWrap dt {
+  display: block;
+  padding: 10px;
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 15px;
+}
+.accordionWrap dt span {
+  display: block;
+  width: 100%;
+  background: url(../images/icon_arrow01.gif) no-repeat 99% 50%;
+}
+.accordionWrap .active,
+.accordionWrap .hover {
+  background-color: #ddd;
+}
+.accordionWrap dt.active span {
+  background: url(../images/icon_arrow02.gif) no-repeat 99% 50%;
+}
+.accordionWrap .accordionBox {
+  display: none;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.accordionWrap {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+/* Owl Carousel */
+.owl-carousel {
+  .item {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+  }
+  .owl-nav {
+    button {
+      height: 60px;
+      width: 60px;
+      font-size: 40px !important;
+      span {
+        position: relative;
+        top: -2px;
+      }
+    }
+  }
+}
+
+.animate-test {
+  p {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.tox-tinymce-aux {
+  display: none !important;
+}
